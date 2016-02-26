@@ -4,7 +4,10 @@ GENERAL
 -------
 
 If ifconfig is not found, try this: /sbin/ifconfig
+
 File permissions: owner:group:world x=1 w=2 r=4
+
+Eliminating traces: iptables –flush; history -c; find ./ -name “*.log” |xargs rm
 
 
 User Management
