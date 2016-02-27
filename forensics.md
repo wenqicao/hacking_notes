@@ -31,3 +31,8 @@ CAESAR
 might be useful sometimes, for example, displays all 26 shifts:
 
 http://www.richkni.co.uk/php/crypta/caesar.php
+
+Other
+=====
+
+Phonetic analysis: praat www.fon.hum.uva.nl/praat
