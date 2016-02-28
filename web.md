@@ -13,4 +13,4 @@ Reverse shell one-liners:
 XSS
 ---
 
-<script>alert("XSS")</script>
+(script)alert("XSS")(/script) - use angle brackets instead of parentheses
