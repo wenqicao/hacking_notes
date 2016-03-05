@@ -113,11 +113,11 @@ SQLMAP
 
 `sqlmap -u "URL" --cookie="COOKIE"`
 
---dbs: list databases
--D [database]: specify a databases
---tables: list tables
--T users: list columns of users table
--C user, password --dump
+--dbs: list databases  
+-D [database]: specify a databases  
+--tables: list tables  
+-T users: list columns of users table  
+-C user, password --dump  
 
 
 COMMAND INJECTION
