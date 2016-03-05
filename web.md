@@ -10,7 +10,7 @@ Reverse shell one-liners:
 
 
 XSS (CROSS SITE SCRIPTING)
------------------------------
+==========================
 
 ```javascript
 <script>alert("XSS")</script>
@@ -23,11 +23,14 @@ Refleced (vulnerable parameter): `http://localhost/xss_r/?name=<script>alert(doc
 
 
 SQL INJECTION
-----------------
+=============
 
 SQL operators:
 
-`UNION` - used to combine the result of two or more SELECT statements with same number of columns and similar data types.
+`UNION` - used to combine the result of two or more SELECT statements with same number of columns and similar data types (selects only distinct values by default - to allow duplicate values, use UNION ALL).
+
+MySQL delimiter: `#`
+SQL delimiter: `--`
 
 Vulnerable code example:
 
@@ -40,8 +43,9 @@ $result=mysql_query($getid) or die('
 ' );
 ```
 
-MySQL delimiter: `#`
-SQL delimiter: `--`
+Determining Database Type
+-------------------------
+
 
 * "Always true" scenario:
 
