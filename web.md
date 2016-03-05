@@ -35,9 +35,12 @@ $result=mysql_query($getid) or die('
 MySQL delimiter: `#`
 SQL delimiter: `--
 
-* Always true scenario:
+* "Always true" scenario:
 
-`%' or '0'='0`
+```
+%' or '0'='0
+' or 1=1--
+```
 
 % will probably not be equal to anything so will be false
 '0'='0' - always equal to true
