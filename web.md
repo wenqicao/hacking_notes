@@ -19,6 +19,7 @@ XSS (CROSS SITE SCRIPTING)
 
 iframe: `<iframe src="http://www.cnn.com"></iframe>`  
 Stored cookie: `<script>alert(document.cookie)</script>`
+Refleced (vulnerable parameter): `http://localhost/xss_r/?name=<script>alert(document.cookie)</script`
 
 
 SQL INJECTION
