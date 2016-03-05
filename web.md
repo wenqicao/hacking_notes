@@ -49,11 +49,10 @@ SQL delimiter: `--`
 `%` will probably not be equal to anything so will be false
 `'0'='0'` - always equal to true
 
-* Figure out how many columns are there:
+* Figure out how many columns / attributes are there:
 
-`‘ ORDER BY 1#`
-`‘ ORDER BY 2#`
-
+`‘ ORDER BY 1#`  
+`‘ ORDER BY 2#`  
 etc.
 
 * Find out the database version:
