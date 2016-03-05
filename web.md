@@ -28,7 +28,7 @@ $getid="SELECT first_name, last_name FROM users WHERE user_id = '$id'";
 $result=mysql_query($getid) or die('
 <pre>' . mysql_error() . '</pre>
 ' );
-```php
+```
 
 Figure out how many columns are there:
 
