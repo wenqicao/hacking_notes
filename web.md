@@ -42,8 +42,8 @@ SQL delimiter: `--
 ' or 1=1--
 ```
 
-% will probably not be equal to anything so will be false
-'0'='0' - always equal to true
+`%` will probably not be equal to anything so will be false
+`'0'='0'` - always equal to true
 
 * Figure out how many columns are there:
 
