@@ -15,33 +15,35 @@ Eliminating traces:
 User Management
 ---------------
 
-Add root user:
+* Add root user:
 
+```
 useradd -ou 0 -g 0 john
 passwd john
+```
+* Switch user: `su`
 
-Switch user: su
+* Change user password non-interactively: `echo "student:studying"|chpasswd`
 
-Chagne user password non-interactively:
+* Add another non-root Kali user:
 
-echo "student:studying"|chpasswd
-
-Add another non-root Kali user:
-
+```
 root@kali:~# useradd -m muts -G sudo -s /bin/bash
 root@kali:~# passwd muts
 Enter new UNIX password:
 Retype new UNIX password:
 passwd: password updated successfully
-
+```
 
 NETWORKING
 ----------
 
 Find open ports:
 
+```
 netstat --listen
 lsof -i
+```
 
 Open ports and established TCP connections: netstat -vatn
 Only open UDP ports: netstat -vaun

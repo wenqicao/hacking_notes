@@ -20,3 +20,5 @@ git push -u alias master
 
 MARKDOWN
 --------
+
+Line break: end line with two or more spaces.
