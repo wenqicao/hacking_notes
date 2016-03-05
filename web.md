@@ -19,7 +19,7 @@ XSS (CROSS SITE SCRIPTING)
 ```
 
 iframe: `<iframe src="http://www.cnn.com"></iframe>`
-Stored cookieL: `<script>alert(document.cookie)</script>`
+Stored cookie: `<script>alert(document.cookie)</script>`
 
 
 SQL INJECTION
