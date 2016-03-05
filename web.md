@@ -18,7 +18,7 @@ XSS (CROSS SITE SCRIPTING)
 <script>alert(document.cookie)</script>
 ```
 
-iframe: `<iframe src="http://www.cnn.com"></iframe>`
+iframe: `<iframe src="http://www.cnn.com"></iframe>`  
 Stored cookie: `<script>alert(document.cookie)</script>`
 
 
