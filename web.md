@@ -19,10 +19,21 @@ XSS
 SQL INJECTION
 -------------
 
+Vulenrable code example:
+
+```
+$id=$_GET['id'];
+
+$getid="SELECT first_name, last_name FROM users WHERE user_id = '$id'";
+$result=mysql_query($getid) or die('
+<pre>' . mysql_error() . '</pre>
+' );
+```php
+
 Figure out how many columns are there:
 
 `‘ ORDER BY 1#`
-`‘ ORDER BY 1#`
+`‘ ORDER BY 2#`
 
 etc.
 
