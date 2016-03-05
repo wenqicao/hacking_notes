@@ -117,7 +117,7 @@ COMMAND INJECTION
 LOCAL FILE INCLUSION
 ====================
 
-Local: `http://localhost/dvwa/vulnerabilities/fi/?page=include.php`
+Local: `http://localhost/dvwa/vulnerabilities/fi/?page=include.php`  
 Remote: `http://localhost/dvwa/vulnerabilities/fi/?page=http://google.com/robots.txt`
 
 FILE UPLOAD
