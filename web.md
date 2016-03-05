@@ -1,4 +1,4 @@
-# web
+# WEB
 
 PHP
 ---
@@ -12,8 +12,6 @@ Reverse shell one-liners:
 
 XSS
 ---
-
- Use angle brackets instead of parentheses.
 
 ```javascript
 <script>alert("XSS")</script>
