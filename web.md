@@ -25,9 +25,10 @@ Refleced (vulnerable parameter): `http://localhost/xss_r/?name=<script>alert(doc
 SQL INJECTION
 =============
 
-SQL operators:
+SQL operators and functions:
 
-`UNION` - used to combine the result of two or more SELECT statements with same number of columns and similar data types (selects only distinct values by default - to allow duplicate values, use UNION ALL).
+`UNION` - used to combine the result of two or more SELECT statements with same number of columns and similar data types (selects only distinct values by default - to allow duplicate values, use UNION ALL).  
+`SUBSTRING(str, pos, len)` - returns a specified number of characters from a particular position of a given string.  
 
 MySQL delimiter: `#`
 SQL delimiter: `--`
@@ -46,6 +47,7 @@ $result=mysql_query($getid) or die('
 Determining Database Type
 -------------------------
 
+Only MySQL is using `version_comment`.
 
 * "Always true" scenario:
 
