@@ -7,3 +7,11 @@ The first step for any JavaScript obfuscation challenge is to make the source co
 Hiew - russian dissassembler
 
 https://github.com/yarrick/iodine
+
+GIT
+---
+
+git add .
+git status
+git commit -m "Commit Message"
+git push -u alias master

