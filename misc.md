@@ -6,6 +6,8 @@ Hiew - russian dissassembler
 
 https://github.com/yarrick/iodine
 
+General wordlists: [SecLists](https://github.com/danielmiessler/SecLists)
+
 GIT
 ---
 

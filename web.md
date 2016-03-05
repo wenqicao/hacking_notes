@@ -33,7 +33,7 @@ $result=mysql_query($getid) or die('
 ```
 
 MySQL delimiter: `#`
-SQL delimiter: `--
+SQL delimiter: `--`
 
 * "Always true" scenario:
 
