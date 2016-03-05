@@ -25,7 +25,11 @@ Refleced (vulnerable parameter): `http://localhost/xss_r/?name=<script>alert(doc
 SQL INJECTION
 ----------------
 
-Vulenrable code example:
+SQL operators:
+
+`UNION` - used to combine the result of two or more SELECT statements with same number of columns and similar data types.
+
+Vulnerable code example:
 
 ```
 $id=$_GET['id'];
