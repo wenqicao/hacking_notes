@@ -1,6 +1,5 @@
-# hacking_notes
-Hacking Notes
+# HACKING NOTES
 
-Collection of various hacking notes, sorted by topics.
+Collection of various hacking notes, sorted by topics; a cheatsheet if you will.
 
-Currently it's a very rough draft.
+Currently a very rough draft.
