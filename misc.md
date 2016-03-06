@@ -22,3 +22,17 @@ MARKDOWN
 --------
 
 Line break: end line with two or more spaces.
+
+
+Nessus
+------
+
+Admin panel is usually reachable at https://localhost:8834/
+
+Reset admin panel password on Kali:
+
+```sh
+cd /opt/nessus/sbin
+./nessuscli lsuser
+./nessuscli chpasswd [username]
+```

