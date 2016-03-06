@@ -7,6 +7,8 @@ SQL Operators and Functions
 `SUBSTRING(str, pos, len)` - returns a specified number of characters from a particular position of a given string. str=string; pos=starting position; len=length in characters.
 `VERSION()` - returns a string that indicates the MySQL server version.
 
+SQL comments: `/* actuall comment text*/`  
+
 MySQL delimiter: `#` (comment)  
 SQL delimiter: `--`
 
