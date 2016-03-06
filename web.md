@@ -31,7 +31,7 @@ SQL operators and functions:
 `SUBSTRING(str, pos, len)` - returns a specified number of characters from a particular position of a given string. str=string; pos=starting position; len=length in characters.
 `VERSION()` - returns a string that indicates the MySQL server version.
 
-MySQL delimiter: `#`
+MySQL delimiter: `#` (comment)
 SQL delimiter: `--`
 
 Vulnerable code example:
@@ -53,8 +53,8 @@ Only MySQL is using `version_comment`.
 * "Always true" scenario:
 
 ```
-%' or '0'='0
-' or 1=1--
+%' OR '0'='0
+%' OR 1=1--
 ```
 
 `%` will probably not be equal to anything so will be false
