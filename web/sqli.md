@@ -9,8 +9,10 @@ SQL Operators and Functions
 
 SQL comments: `/* actual comment text*/`  
 
-MySQL delimiter: `#` (comment)  
-SQL delimiter: `--`
+MySQL delimiter (comment): `#`
+SQL delimiter (comment): `--`
+
+Only MySQL is using `version_comment`.
 
 Vulnerable code example:
 
@@ -23,10 +25,13 @@ $result=mysql_query($getid) or die('
 ' );
 ```
 
-Determining Database Type
--------------------------
+General Tips
+------------
 
-Only MySQL is using `version_comment`.
+Find out if the web app is talking to a data store (i.e. file, web service, database).  
+Look for parameter passing and insert single/double quote there - immediately after the parameter value or instead the parameter value.  
+Browse the web app, note errors, behaviour.
+
 
 * "Always true" scenario:
 
