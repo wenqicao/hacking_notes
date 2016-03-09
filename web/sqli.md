@@ -32,6 +32,10 @@ Find out if the web app is talking to a data store (i.e. file, web service, data
 Look for parameter passing and insert single/double quote there - immediately after the parameter value or instead the parameter value.  
 Browse the web app, note errors, behaviour.
 
+PHP usually "talks" to MySQL.  
+Understand, what tier we're messing with? Web server, app server, database?
+
+Try `parameter?id=(5-2)`instead of 3 - get the same? Might mean that the injection is possible.
 
 * "Always true" scenario:
 
@@ -115,7 +119,8 @@ id=2; IF (ASCII(lower(substring((USER),1,1)))=98) WAITFOR DELAY '00:00:10'--
 
 etc.
 
-Note: sqlmap tool is good for blind sqli.
+Note: sqlmap tool is good for blind sqli.  
+These days there's more union-based SQLi.
 
 
 Circumventing Simple Validation
@@ -151,6 +156,13 @@ Other Tools
 * sqlninja
 * BBQSQL
 * Metasploit SQLi Module
+
+
+Prevention Techniques
+---------------------
+
+* Input sanitization
+* Prepared statements
 
 
 Resources
