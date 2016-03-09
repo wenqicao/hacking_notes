@@ -124,3 +124,12 @@ Other Tools
 * Havij
 * sqlninja
 * BBQSQL
+* Metasploit SQLi Module
+
+
+Resources
+---------
+
+* http://seclists.org/pauldotcom/2010/q3/341  
+* https://www.notsosecure.com/more-on-true-and-error-blind-sql-injection/  
+* https://www.notsosecure.com/exploiting-sql-injections-in-insert-statements/
