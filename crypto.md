@@ -1,12 +1,15 @@
 # CRYPTOGRAPHY
 
+XOR
+===
+
+The binary operation XOR (stands for eXclusive OR) is a binary operand (as are AND, OR, etc) from Boole algebra. This operand will compare two bits and will produce one bit in return. That bit will be equal to 1 if the two compared bits were different, 0 if they were equal.
+
+
 Simple types of ciphers (just substituted lettters or moved down the alphabet):
 
 Caesar's Cypher
 ROT13
-
-
-Other types of ciphers: XOR
 
 Useful tool for automatically decoding ciphers (cryptogram solver):
 

@@ -42,6 +42,18 @@ shell.php.xxxjpg (still ends in .jpg, but not recognised extension so will defau
 
 .php3/.php4/.php5 (valid PHP extensions possibly left out of extension blacklists)
 
+IP SPOOFING
+===========
+
+Accept: */*
+x-forwarded-for: 127.0.0.1  
+x-remote-IP: 127.0.0.1  
+x-originating-IP: 127.0.01  
+x-remote-addr: 127.0.0.1  
+x-remote-ip: 127.0.0.1  
+x-forwarded-for 127.0.0.1  
+
+Sometimes referer needs to be deleted in the request.
 
 Nikto
 =====
