@@ -7,3 +7,12 @@ Currently a very rough draft.
 WEB: sqli, xss, etc.  
 CTF: capture the flag related: stegano, etc.  
 CRYPTO: everything cryptography related: ciphers, etc.  
+
+Tree Of Contents
+================
+
+               hacking_notes
+                     |
+               ------ -------
+              /
+            web
