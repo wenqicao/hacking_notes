@@ -136,8 +136,8 @@ SELSELECTECT
 %2553%2545%254c%2545%2543%2554
 ```
 
-Bypassing Simple Input Filtering
---------------------------------
+Bypassing Simple Input Filtering / Smuggling
+--------------------------------------------
 
 Example code:
 
@@ -148,7 +148,9 @@ function unsqli($str){
 }
 ```
 
-Bypass this filtering with `\'`.
+Bypass this filtering with `\'`.  
+
+* http://web.archive.org/web/20130401091931/http://www.comsecglobal.com/FrameWork/Upload/SQL_Smuggling.pdf
 
 SQLMAP
 ------
