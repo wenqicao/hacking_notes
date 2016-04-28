@@ -1,6 +1,6 @@
-# IIS EXPLOITING
+# IIS (MICROSOFT INTERNET INFORMATION SERVICES) EXPLOITING
 
-IIS exploiting:
+General info:
 
 https://www.alertlogic.com/blog/internet-information-server-%28iis%29-exploitation/  
 https://www.exploit-db.com/exploits/19033/
