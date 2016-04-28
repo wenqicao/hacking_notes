@@ -19,3 +19,9 @@ https://www.owasp.org/index.php/Testing_for_Padding_Oracle_%28OTG-CRYPST-002%29
 
 [Bruteforcing Web Form With Hydra](http://null-byte.wonderhowto.com/how-to/hack-like-pro-crack-online-web-form-passwords-with-thc-hydra-burp-suite-0160643/)
 --------------------------------
+
+
+Other Resources
+===============
+
+* https://md5hashing.net/hash_type_checker  
