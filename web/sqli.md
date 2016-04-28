@@ -136,6 +136,19 @@ SELSELECTECT
 %2553%2545%254c%2545%2543%2554
 ```
 
+Bypassing Simple Input Filtering
+--------------------------------
+
+Example code:
+
+```
+function unsqli($str){
+        $str = str_replace("'", "\\'", $str);
+        return "'".$str."'";
+}
+```
+
+Bypass this filtering with `\'`.
 
 SQLMAP
 ------
