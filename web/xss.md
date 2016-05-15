@@ -44,3 +44,8 @@ Other:
 <IMG SRC="jav&#x0A;ascript:alert('XSS');">
 <IMG SRC="jav&#x0D;ascript:alert('XSS');">
 ```
+
+Misc
+----
+
+* [JSFuck](http://www.jsfuck.com/) - Javascript with six characters
