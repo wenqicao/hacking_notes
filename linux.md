@@ -1,6 +1,6 @@
 # LINUX
 
-GENERAL
+General
 -------
 
 If ifconfig is not found, try this: /sbin/ifconfig
