@@ -35,20 +35,19 @@ Retype new UNIX password:
 passwd: password updated successfully
 ```
 
-NETWORKING
+Networking
 ----------
 
 Find open ports:
-
 ```
 netstat --listen
 lsof -i
 ```
-
 Open ports and established TCP connections: netstat -vatn
 Only open UDP ports: netstat -vaun
 FQDN: netstat -vat
 
 Display all open IPv4 network files in use by the processes whose PID is 9255:
-
+```
 lsof -i 4 -a -p 9255
+```
