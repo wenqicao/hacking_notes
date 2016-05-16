@@ -1,5 +1,11 @@
 # PASSWORD ATTACKS
 
+Hash Formats
+============
+
+* MD5: 32-digit hexadecimal number
+
+
 Cracking
 ========
 
