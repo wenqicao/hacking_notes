@@ -46,8 +46,8 @@ shell.php.xxxjpg (still ends in .jpg, but not recognised extension so will defau
 * [evilarc](https://github.com/ptoomey3/evilarc) - creates zip files with dir traversal characters in their embedded path
 
 
-IP SPOOFING
-===========
+IP Spoofing
+-----------
 
 Accept: */*
 x-forwarded-for: 127.0.0.1  
@@ -60,7 +60,7 @@ x-forwarded-for 127.0.0.1
 Sometimes referer needs to be deleted in the request.
 
 Nikto
-=====
+-----
 
 Simple scan:
 
