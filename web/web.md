@@ -16,37 +16,35 @@ Shells
 
 
 Command Injection
-=================
+-----------------
 
 * Try to use pipe, ampersands, etc. Example: `1 | uname -a & users & id`
 
 
 Local File Inclusion
-====================
+--------------------
 
 Local: `http://localhost/dvwa/vulnerabilities/fi/?page=include.php`  
 Remote: `http://localhost/dvwa/vulnerabilities/fi/?page=http://google.com/robots.txt`
 
 File Upload
-===========
+-----------
 
-Image upload restrictions [bypass](http://hackers2devnull.blogspot.lt/2013/05/how-to-shell-server-via-image-upload.html):
+* Image upload restrictions [bypass](http://hackers2devnull.blogspot.lt/2013/05/how-to-shell-server-via-image-upload.html):
 
+```
 shell.jpg.php (satisfies as check for jpg only)
-
 shell.jpg.PhP (obfuscation)
-
 shell.php;.jpg (sometimes can ignore whats after ";")
-
 shell.php%0delete0.jpg (the infamous NULL byte which comments out trailing text, remove the word delete so the zeros join together, blogspot strips this string!)
-
 shell.php.test (defaults to first recognised extension ignoring "test")
-
 shell.php.xxxjpg (still ends in .jpg, but not recognised extension so will default to php!)
-
 .phtml (a commonly used php parsed extension often forgotten about!)
-
 .php3/.php4/.php5 (valid PHP extensions possibly left out of extension blacklists)
+```
+
+* [evilarc](https://github.com/ptoomey3/evilarc) - creates zip files with dir traversal characters in their embedded path
+
 
 IP SPOOFING
 ===========
