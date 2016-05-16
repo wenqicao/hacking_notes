@@ -188,3 +188,4 @@ Resources
 * https://www.notsosecure.com/exploiting-sql-injections-in-insert-statements/
 * http://www.blackhat.com/presentations/bh-usa-06/BH-US-06-Willis.pdf
 * [Great introduction to SQLi](https://www.youtube.com/watch?v=P6fLRmeEKKA)
+* [MySQL SQL Injection Cheat Sheet](http://pentestmonkey.net/cheat-sheet/sql-injection/mysql-sql-injection-cheat-sheet)
