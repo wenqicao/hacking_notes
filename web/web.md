@@ -15,6 +15,12 @@ Shells
 * [Weevely](https://github.com/epinna/weevely3/) - great command line web shell with good features
 
 
+XSRF
+----
+
+* [CSurfer](https://github.com/asaafan/CSurfer/) - CSRF guard hiding extension for Burp
+
+
 Command Injection
 -----------------
 
