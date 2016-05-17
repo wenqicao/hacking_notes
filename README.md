@@ -5,7 +5,6 @@ Collection of various hacking notes, sorted by topics; a cheatsheet if you will.
 Always a very rough draft and constantly being updated.
 
 WEB: sqli, xss, etc.  
-CTF: capture the flag related: stegano, etc.  
 CRYPTO: everything cryptography related: ciphers, etc.  
 FORENSICS: stegano, etc.  
 LINUX: bash, user groups, etc.  
