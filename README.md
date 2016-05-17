@@ -23,7 +23,7 @@ Tree Of Contents
       /     |        |        |      |        |          |         |       |       |    \
     web  crypto  forensics  misc  mobile  passwords  reversing  windows  linux  coding  labs
      |                                                                             |
-   -- ------------------------------------                                        ---
+   ---------------------------------------                                        ---
   /  |    |         |           |     |   \                                      /   \
 IIS SQLi XSS  path traversal  recon  SSL  web                                  PHP  Python
 ```
