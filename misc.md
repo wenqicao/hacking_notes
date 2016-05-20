@@ -42,14 +42,10 @@ mimikatz
 
 reaver (wifi tool)
 
-Hiew - russian dissassembler
-
 https://github.com/yarrick/iodine
 
 netsparker
 
 p0wn pr0xy sqlmap
-
-Powershell for penetration testing and offensive security: https://github.com/samratashok/nishang
 
 Hash length extension attack (http://sakurity.com/lengthextension)
