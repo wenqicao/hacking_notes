@@ -18,7 +18,7 @@ print "Ah, so your name is %s, your quest is %s, " \
 ```
 
 
-`len("Charlie")` - returns the length of the string
-`"Delta".upper()` - returns uppercase
-`"Echo".lower()` - returns lowercase
-`str(3.14)` - converts number to a string
+`len("Charlie")` - returns the length of the string  
+`"Delta".upper()` - returns uppercase  
+`"Echo".lower()` - returns lowercase  
+`str(3.14)` - converts number to a string  
