@@ -54,14 +54,15 @@ lsof -i 4 -a -p 9255
 Shell
 -----
 
-`>` redirects standard output of a command to a file, overwriting previous content  
-`>>` redirects standard output of a command to a file, appending new content to old content  
-`<` redirects standard input to a command  
-`|` redirects standard output of a command to another command  
-`sort`: sorts lines of text alphabetically  
-`uniq`: filters duplicate, adjacent lines of text  
-`grep`: searches for a text pattern and outputs it  
-`sed` : searches for a text pattern, modifies it, and outputs it  
-
-`source ~/.bash_profile` - activate updated profile settings in current session
-`history` - view command history
+`>` - redirects standard output of a command to a file, overwriting previous content  
+`>>` - redirects standard output of a command to a file, appending new content to old content  
+`<` - redirects standard input to a command  
+`|` - redirects standard output of a command to another command  
+`sort` - sorts lines of text alphabetically  
+`uniq` - filters duplicate, adjacent lines of text  
+`grep` - searches for a text pattern and outputs it  
+`sed` - searches for a text pattern, modifies it, and outputs it  
+`source ~/.bash_profile` - activate updated profile settings in current session  
+`history` - view command history  
+`export PS1=">> "` - change default prompt from $ to >>  
+`env` - return environment variables  
