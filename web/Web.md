@@ -74,7 +74,8 @@ Simple scan:
 perl nikto.pl -host http://www.example.com
 ```
 
-Browser Tricks
---------------
+Browser-Related
+---------------
 
-* [Chrome "No Web Security"](https://bugs.chromium.org/p/chromium/issues/detail?id=575690) - Chrome can be started with less web security mode using flag "--disable-web-security"
+* [Chrome "No Web Security"](https://bugs.chromium.org/p/chromium/issues/detail?id=575690) - Chrome can be started with less web security mode using flag "--disable-web-security"  
+* Pentesting plugins: [Firebug](http://getfirebug.com/), [Cookies Manager+](https://addons.mozilla.org/en-US/firefox/addon/cookies-manager-plus/), [FoxyProxy](https://getfoxyproxy.org/), [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data/)  
