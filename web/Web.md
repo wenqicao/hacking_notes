@@ -1,8 +1,5 @@
 # WEB
 
-PHP
-===
-
 Shells
 ------
 
@@ -15,8 +12,8 @@ Shells
 * [Weevely](https://github.com/epinna/weevely3/) - great command line web shell with good features
 
 
-XSRF
-----
+XSRF (Cross-site Request Forgery)
+---------------------------------
 
 * [CSurfer](https://github.com/asaafan/CSurfer/) - CSRF guard hiding extension for Burp
 
@@ -27,7 +24,7 @@ Command Injection
 * Try to use pipe, ampersands, etc. Example: `1 | uname -a & users & id`
 
 
-Local File Inclusion
+File Inclusion
 --------------------
 
 Local: `http://localhost/dvwa/vulnerabilities/fi/?page=include.php`  
