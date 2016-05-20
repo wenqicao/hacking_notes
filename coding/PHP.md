@@ -9,7 +9,10 @@ Hello World
 Arrays
 ------
 
-Counting starts from 0.
+Counting starts from 0.  
+```
+$myArray = array(1, 2, 3);
+```
 
 Objects, Classes, Constructors
 ------------------------------
@@ -39,6 +42,42 @@ A method is a function bundled into object.
         echo $student -> greet();
         ?>
   ```
+
+Inheritance
+-----------
+```
+<?php
+        class Shape {
+          public $hasSides = true;
+        }
+
+        class Square extends Shape {
+
+        }
+
+        $square = new Square();
+        // Add your code below!
+        if (property_exists($square, "hasSides")) {
+          echo "I have sides!";
+        }
+      ?>
+```
+
+Static Keywords
+---------------
+```
+class Person {
+  public static $isAlive = "Yep!"
+  public static function greet() {
+    echo "Hello there!";
+  }
+}
+
+echo Person::$isAlive;
+// prints "Yep!"
+Person::greet();
+// prints "Hello there!"
+```
 
 
 Syntax

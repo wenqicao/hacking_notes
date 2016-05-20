@@ -62,3 +62,6 @@ Shell
 `uniq`: filters duplicate, adjacent lines of text  
 `grep`: searches for a text pattern and outputs it  
 `sed` : searches for a text pattern, modifies it, and outputs it  
+
+`source ~/.bash_profile` - activate updated profile settings in current session
+`history` - view command history
