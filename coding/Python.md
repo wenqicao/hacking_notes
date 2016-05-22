@@ -1,10 +1,24 @@
 # PYTHON
 
+Functions
+---------
+```
+def function(arg):
+    return True
+```
+
 Math
 ----
 
 Exponents: `eight = 2 ** 3`  
-Modulo (returns the remainder from a division): `3 % 2` will return `1`.
+Modulo (returns the remainder from a division): `3 % 2` will return `1`.  
+Other useful functions:  
+```
+abs()
+max()
+min()
+```
+
 
 String Formatting, Console output
 ---------------------------------
@@ -48,3 +62,32 @@ Not False is True
 ```
 
 `not` is evaluated first, `and` is evaluated next, `or` is evaluated last.
+
+
+
+
+```
+# PYG - moves first letter of the word to the end
+# and adds "ay"
+
+pyg = 'ay'
+
+# Take input and check if its not empty and wihout numbers:
+original = raw_input('Enter a word:')
+
+if len(original) > 0 and original.isalpha():
+    print original
+else:
+    print 'empty'
+
+# Convert to lowercase    
+word = original.lower()
+
+# Get the first letter of the word
+first = word[0]
+new_word = word + first + "ay"
+
+# Get the correct slice and print out the word
+new_word = new_word[1:len(new_word)]
+print new_word
+``
