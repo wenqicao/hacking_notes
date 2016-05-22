@@ -71,6 +71,12 @@ Simple scan:
 perl nikto.pl -host http://www.example.com
 ```
 
+Drupal
+------
+
+* [Attacking Drupal](http://www.slideshare.net/heinzarelli/attacking-drupal)
+* [DPScan](http://www.ehacking.net/2012/02/dpscan-drupal-security-scanner-tutorial.html)
+
 Browser-Related
 ---------------
 
