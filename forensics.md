@@ -3,6 +3,8 @@
 Steganography
 =============
 
+* [Advanced JPEG Steganography and Detection by John Ortiz](https://www.youtube.com/watch?v=BQPkRlbVFEs)  
+
 General helpful tools:
 
 * stegsolve.jar
