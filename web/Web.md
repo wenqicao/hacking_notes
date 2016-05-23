@@ -16,6 +16,7 @@ XSRF (Cross-site Request Forgery)
 ---------------------------------
 
 * [CSurfer](https://github.com/asaafan/CSurfer/) - CSRF guard hiding extension for Burp
+* [CSRF-Request-Builder](https://github.com/TheRook/CSRF-Request-Builder/) - tool for testing CSRF against web services
 
 
 Command Injection
