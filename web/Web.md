@@ -77,6 +77,8 @@ Drupal
 
 * [Attacking Drupal](http://www.slideshare.net/heinzarelli/attacking-drupal)
 * [DPScan](http://www.ehacking.net/2012/02/dpscan-drupal-security-scanner-tutorial.html)
+* [Drupal by Mad Irish](http://www.madirish.net/tag/drupal) - good resource on Drupal vulns
+* Find out which version: `domain.com/changelog.txt`
 
 Browser-Related
 ---------------
