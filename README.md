@@ -10,7 +10,11 @@ FORENSICS: stegano, etc.
 LINUX: bash, user groups, etc.  
 PASSWORDS: cracking, bruteforcing, etc.  
 REVERSING: binary exploitation, etc.  
+MOBILE: testing apps, etc.
 WINDOWS: anything Windows-related  
+NETWORK: arp spoofing, etc.
+CTF: anything capture the flag related
+CODING: notes on different languages, e.g. how to define functions, arrays
 MISC: anything else that doesn't fit into above categories  
 
 
