@@ -32,3 +32,10 @@ Comparing Files
 There is a software called bindiff, not sure, looks like it's not free. diff should do the trick too.
 
 For windows, there's a nice tool called FC.
+
+Metadata
+--------
+
+* [FOCA](https://www.elevenpaths.com/labstools/foca/index.html) - tool for finding metadata and hidden information in the documents
+* [Metagoofil](http://www.edge-security.com/metagoofil.php) - information gathering tool designed for extracting metadata of public documents belonging to a target company
+* [ExifTool](http://www.sno.phy.queensu.ca/~phil/exiftool/) - tool for reading, writing and editing meta information in a wide variety of files
