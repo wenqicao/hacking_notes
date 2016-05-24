@@ -7,7 +7,6 @@ General wordlists: [SecLists](https://github.com/danielmiessler/SecLists)
 
 GIT
 ---
-
 ```
 git add .
 git status
@@ -49,3 +48,19 @@ netsparker
 p0wn pr0xy sqlmap
 
 Hash length extension attack (http://sakurity.com/lengthextension)
+
+OSI Model
+---------
+
+1. Physical (cables, hubs)
+2. Data Link (frames)
+3. Network (packets)
+4. Transport (TCP)
+5. Session (logical ports)
+6. Presentation (ASCII)
+7. Application (SMTP)
+
+Bug Bounties
+------------
+
+* [ExploitHub](https://exploithub.com/) - non 0-day exploit marketplace

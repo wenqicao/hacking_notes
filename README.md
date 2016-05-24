@@ -1,8 +1,11 @@
 # hacking_notes                 
 
-Collection of various hacking notes, sorted by topics; a cheatsheet if you will.
+Collection of various hacking notes, sorted by topics; a cheatsheet if you will.  
+Always a very rough draft and constantly being updated.  
+*Disclaimer:* information provided in these notes is mostly useful for security and penetration testing and should not be used for any illegal activities.
 
-Always a very rough draft and constantly being updated.
+Topics
+------
 
 WEB: sqli, xss, etc.  
 CRYPTO: ciphers, etc.  
@@ -19,7 +22,7 @@ MISC: anything else that doesn't fit into above categories
 
 
 Tree Of Contents
-================
+----------------
 ```
                                         hacking_notes
                                               |
