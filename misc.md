@@ -18,8 +18,9 @@ Update repo: git pull [options] [<repository> [<refspec>…​]]
 MARKDOWN
 --------
 
-Line break: end line with two or more spaces.
+Line break: end line with two or more spaces.  
 
+* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 Nessus
 ------

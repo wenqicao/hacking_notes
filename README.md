@@ -2,7 +2,7 @@
 
 Collection of various hacking notes, sorted by topics; a cheatsheet if you will.  
 Always a very rough draft and constantly being updated.  
-*Disclaimer:* information provided in these notes is mostly useful for security and penetration testing and should not be used for any illegal activities.
+**Disclaimer:** information provided in these notes is mostly useful for security and penetration testing and should not be used for any illegal activities.
 
 Topics
 ------

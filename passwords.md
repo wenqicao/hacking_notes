@@ -33,6 +33,7 @@ Wordlists
 ---------
 
 * [CIRT](https://cirt.net/passwords) - default password DB
+* [Weakpass](http://weakpass.com/lists) - various password lists
 
 
 Other Resources

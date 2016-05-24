@@ -12,6 +12,21 @@ DNS Cache Snooping
 
 `nmap -sU -p 53 --script dns-cache-snoop.nse 8.8.8.8`
 
+Wireshark
+---------
+
+Filters:
+```
+tcp.port==25
+tcp.srcport!=53
+tcp.dstport==80
+ip.addr == 10.0.0.1
+ip.addr != 10.0.0.1
+ip.src==192.168.0.0/16
+!udp
+smb || dns || icmp
+```
+
 Other
 -----
 

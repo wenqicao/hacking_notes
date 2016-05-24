@@ -51,6 +51,28 @@ Display all open IPv4 network files in use by the processes whose PID is 9255:
 lsof -i 4 -a -p 9255
 ```
 
+Privilege Escalation
+--------------------
+
+* [Basic Linux Privilege Escalation by g0tmi1k](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
+* [Linux Exploit Suggester](https://github.com/PenturaLabs/Linux_Exploit_Suggester)
+* [LinuxPrivChecker](http://www.securitysift.com/download/linuxprivchecker.py)
+* [unix-privesc-check](http://pentestmonkey.net/tools/audit/unix-privesc-check)
+
+Shell history:
+```
+cat ~/.bash_history
+cat ~/.nano_history
+cat ~/.mysql_history
+```
+
+Private SSH keys:
+```
+ls -la ~/.ssh/
+cat ~/.ssh/id_rsa
+cat ~/.ssh/id_dsa
+```
+
 Shell
 -----
 
