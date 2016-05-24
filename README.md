@@ -17,7 +17,8 @@ MOBILE: testing apps, etc.
 WINDOWS: anything Windows-related  
 NETWORK: arp spoofing, etc.  
 CTF: anything capture the flag related  
-CODING: notes on different languages, e.g. how to define functions, arrays  
+CODING: notes on different languages, e.g. how to define functions, arrays
+NETWORK: wi-fi, DNS, etc.  
 MISC: anything else that doesn't fit into above categories  
 
 
@@ -26,11 +27,11 @@ Tree Of Contents
 ```
                                         hacking_notes
                                               |
-       ---------------------------------------------------------------------------------
-      /     |        |        |      |        |          |         |       |       |    \
-    web  crypto  forensics  misc  mobile  passwords  reversing  windows  linux  coding  labs
-     |                                                                             |
-   ---------------------------------------                                        ---
-  /  |    |         |           |     |   \                                      /   \
-IIS SQLi XSS  path traversal  recon  SSL  web                                  PHP  Python
+       -------------------------------------------------------------------------------------------
+      /     |        |        |      |        |         |         |       |         |      |      \
+    web  crypto  forensics  misc  mobile  passwords  network  reversing  windows  linux  coding  labs
+     |                                                  |                                  |
+   ---------------------------------------             ---                                ---
+  /  |    |         |           |     |   \           /   \                              /   \
+IIS SQLi XSS  path traversal  recon  SSL  web    network  wifi                         PHP  Python
 ```
