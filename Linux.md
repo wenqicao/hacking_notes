@@ -73,6 +73,12 @@ cat ~/.ssh/id_rsa
 cat ~/.ssh/id_dsa
 ```
 
+Passwords in config files, backups:
+```
+find /etc/ -name "*.conf" -exec grep -i pass {} \;
+find / -type d -name "*backup*"
+find / -name "*backup*" | grep "\.tar\|\.gz\|\.zip\|\.bz2\|\.bak"
+
 Shell
 -----
 
@@ -88,3 +94,4 @@ Shell
 `history` - view command history  
 `export PS1=">> "` - change default prompt from $ to >>  
 `env` - return environment variables  
+`w` - show logged in users
