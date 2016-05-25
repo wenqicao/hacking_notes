@@ -49,12 +49,17 @@ shell.php.xxxjpg (still ends in .jpg, but not recognised extension so will defau
 
 * [evilarc](https://github.com/ptoomey3/evilarc) - creates zip files with dir traversal characters in their embedded path
 
-* [Uploading `.htaccess` and remapping filetypes]
+* Uploading `.htaccess` and remapping filetypes
 * Shellcode in filename:
 ```
 .png; ls -la;
 ; whoami; .png
 ```
+
+XXE (XML External Entity Injection)
+-----------------------------------
+
+* [Preventing XXE in PHP](https://websec.io/2012/08/27/Preventing-XEE-in-PHP.html)
 
 
 IP Spoofing
