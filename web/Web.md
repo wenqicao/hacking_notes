@@ -49,6 +49,13 @@ shell.php.xxxjpg (still ends in .jpg, but not recognised extension so will defau
 
 * [evilarc](https://github.com/ptoomey3/evilarc) - creates zip files with dir traversal characters in their embedded path
 
+* [Uploading `.htaccess` and remapping filetypes]
+* Shellcode in filename:
+```
+.png; ls -la;
+; whoami; .png
+```
+
 
 IP Spoofing
 -----------
@@ -84,4 +91,4 @@ Browser-Related
 ---------------
 
 * [Chrome "No Web Security"](https://bugs.chromium.org/p/chromium/issues/detail?id=575690) - Chrome can be started with less web security mode using flag "--disable-web-security"  
-* Pentesting plugins: [Firebug](http://getfirebug.com/), [Cookies Manager+](https://addons.mozilla.org/en-US/firefox/addon/cookies-manager-plus/), [FoxyProxy](https://getfoxyproxy.org/), [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data/)  
+* Pentesting plugins: [Firebug](http://getfirebug.com/), [Cookies Manager+](https://addons.mozilla.org/en-US/firefox/addon/cookies-manager-plus/), [FoxyProxy](https://getfoxyproxy.org/), [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data/), [FileStorage Plus!](https://addons.mozilla.org/de/firefox/addon/firestorage-plus/)  

