@@ -135,6 +135,15 @@ Person::greet();
 // prints "Hello there!"
 ```
 
+Parameters
+----------
+```
+<html>
+<?php echo "Hi, this is test. I'm gonna print your param now: "; ?>
+<br>
+<?php echo $_GET['param']; ?>
+</html>
+```
 
 Syntax
 ------
