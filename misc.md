@@ -2,7 +2,7 @@
 
 General wordlists: [SecLists](https://github.com/danielmiessler/SecLists)
 
-GIT
+Git
 ---
 ```
 git add .
@@ -12,7 +12,7 @@ git push -u alias master
 Update repo: git pull [options] [<repository> [<refspec>…​]]
 ```
 
-MARKDOWN
+Markdown
 --------
 
 Line break: end line with two or more spaces.  

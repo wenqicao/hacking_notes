@@ -31,6 +31,9 @@ File Inclusion
 Local: `http://localhost/dvwa/vulnerabilities/fi/?page=include.php`  
 Remote: `http://localhost/dvwa/vulnerabilities/fi/?page=http://google.com/robots.txt`
 
+* [PHP File Inclusion Overview](https://websec.wordpress.com/2010/02/22/exploiting-php-file-inclusion-overview/)  
+* [Uniscan](https://sourceforge.net/projects/uniscan/) - simple RFI, LFI and RCE vulnerability scanner  
+
 File Upload
 -----------
 
