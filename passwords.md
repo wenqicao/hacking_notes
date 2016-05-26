@@ -13,7 +13,9 @@ Cracking MD5 with John the Ripper:
 
 `john --format=raw-MD5 md5.txt`
 
-where md5.txt contains the hash in this format: Bob:1c0b76fce779f78f51be339c49445c49
+where md5.txt contains the hash in this format: Bob:1c0b76fce779f78f51be339c49445c49  
+
+* [John the Ripper Hash Formats](http://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats)  
 
 Online MD5 cracker: [HashKiller](https://hashkiller.co.uk/md5-decrypter.aspx)
 
@@ -32,6 +34,7 @@ Bruteforcing
 Wordlists
 ---------
 
+* [Dictionaries + Wordlists](https://blog.g0tmi1k.com/2011/06/dictionaries-wordlists/) - how to customize wordlists
 * [CIRT](https://cirt.net/passwords) - default password DB
 * [Weakpass](http://weakpass.com/lists) - various password lists
 * [SkullSecurity](https://wiki.skullsecurity.org/Passwords) - various password lists

@@ -50,6 +50,14 @@ p0wn pr0xy sqlmap
 
 Hash length extension attack (http://sakurity.com/lengthextension)
 
+New PC Security Checklist
+-------------------------
+
+* Disable Flash in browser (`chrome://plugins`)
+* Disable Java in browser (Start -> Configure Java -> Security -> Uncheck "Enable Java content in the browser")
+* If Chrome, disable other things (omnibox leak etc.)
+* Disable NetBIOS over TCP/IP (network settings)
+
 OSI Model
 ---------
 
