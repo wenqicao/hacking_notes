@@ -3,6 +3,7 @@
 * [PowerSploit](https://github.com/PowerShellMafia/PowerSploit) - collection of powershell modules for pentesting
 * [Nishang](https://github.com/samratashok/nishang) - Powershell framework and collection of scripts and payloads for pentesting  
 * [USBDumper](http://www.secuobs.com/USBDumper.rar) - silently copies contents of every connected USB device to the system
+* [mimikatz](https://github.com/gentilkiwi/mimikatz) - extract plaintext passwords, hashes, PIN codes, kerberos tickets from memory; pass-the-hash
 
 Privilege Escalation
 --------------------

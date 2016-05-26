@@ -6,6 +6,7 @@
 * [Ettercap](http://ettercap.github.io/ettercap/) - suite for man in the middle attacks
 * netdiscover
 * [Yersinia](http://www.yersinia.net/) - network tool designed to take advantage of weaknesses in different network protocols
+* [iodine](https://github.com/yarrick/iodine) - tunnel IPv4 data through a DNS server
 
 DNS Cache Snooping
 ------------------

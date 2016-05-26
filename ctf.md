@@ -25,3 +25,8 @@ Writeups
 * [Hack Dat Kiwi 2015 Auto-Write-Up](http://hack.dat.kiwi/writeup)
 * [Diutinus Defense Technologies Corp.](http://ddtek.biz/)
 * [9447 CTF 2015 write-ups](https://github.com/ctfs/write-ups-2015/tree/master/9447-ctf-2015)
+
+Obfuscated Javascript
+---------------------
+
+The first step for any JavaScript obfuscation challenge is to make the source code easier to read, adding line breaks and braces where needed. jsbeautifier

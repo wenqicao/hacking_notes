@@ -1,9 +1,6 @@
-# misc
-
-The first step for any JavaScript obfuscation challenge is to make the source code easier to read, adding line breaks and braces where needed. jsbeautifier
+# MISC
 
 General wordlists: [SecLists](https://github.com/danielmiessler/SecLists)
-
 
 GIT
 ---
@@ -35,21 +32,6 @@ cd /opt/nessus/sbin
 ./nessuscli chpasswd [username]
 ```
 
-Still to-do:
-------------
-
-mimikatz
-
-reaver (wifi tool)
-
-https://github.com/yarrick/iodine
-
-netsparker
-
-p0wn pr0xy sqlmap
-
-Hash length extension attack (http://sakurity.com/lengthextension)
-
 New PC Security Checklist
 -------------------------
 
@@ -73,3 +55,10 @@ Bug Bounties
 ------------
 
 * [ExploitHub](https://exploithub.com/) - non 0-day exploit marketplace
+
+
+Still to-do:
+------------
+
+p0wn pr0xy sqlmap  
+Hash length extension attack (http://sakurity.com/lengthextension)
