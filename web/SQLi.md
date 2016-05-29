@@ -163,6 +163,8 @@ SQLMAP
 -T users: list columns of users table  
 -C user, password --dump  
 
+* POST requests:  
+`sqlmap -r post_request.txt -p <parameter>`
 
 Other Tools
 -----------
