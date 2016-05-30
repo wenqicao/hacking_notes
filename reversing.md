@@ -1,7 +1,7 @@
 # REVERSING
 
 Tools
-=====
+-----
 
 * [Binary Ninja](https://binary.ninja/) - reversing platform
 * [Resource Hacker](http://www.angusj.com/resourcehacker/) - compiling, viewing, decompiing and recompiling resources for 32/64bit Windows executables
@@ -9,3 +9,8 @@ Tools
 * [Hiew](http://www.hiew.ru/) - russian disassembler
 * [DarunGrim](http://www.darungrim.org/) - patch analysis and binary diffing tool
 * [patchdiff2](https://code.google.com/archive/p/patchdiff2/) - plugin for IDA that can analyze two IDB files and find the differences between both
+
+Fuzzing
+-------
+
+* [American Fuzzy Lop](http://lcamtuf.coredump.cx/afl/)

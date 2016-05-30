@@ -35,6 +35,9 @@ Retype new UNIX password:
 passwd: password updated successfully
 ```
 
+* Kill process: `kill -9 <pid>`  
+* Force-delete user: `userdel -f <uid>`  
+
 Networking
 ----------
 
