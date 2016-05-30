@@ -13,4 +13,4 @@ Tools
 Fuzzing
 -------
 
-* [American Fuzzy Lop](http://lcamtuf.coredump.cx/afl/)
+* [American Fuzzy Lop](http://lcamtuf.coredump.cx/afl/) - fuzzer

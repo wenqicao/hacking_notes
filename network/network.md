@@ -31,4 +31,5 @@ smb || dns || icmp
 Other
 -----
 
-MAC address spoof: `ifconfig eth0 hw ether 00:11:22:33:44:55`
+MAC address spoof: `ifconfig eth0 hw ether 00:11:22:33:44:55`  
+View routing tables: `netstat -rn`
