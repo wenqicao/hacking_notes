@@ -8,6 +8,7 @@ Tools
 * [ctf-tools](https://github.com/zardus/ctf-tools) - many tools in one place
 * [pwntools by Gallopsled](https://github.com/Gallopsled/pwntools) - CTF framework
 * [Useful websites for puzzle solving](http://www.winterdragon.org/index.php?page=puzzle-sites)
+* [uncompyle](https://github.com/gstarnberger/uncompyle) - python 2.7 byte-code decompiler
 
 Tutorials
 ---------
@@ -31,3 +32,8 @@ Obfuscated Javascript
 ---------------------
 
 The first step for any JavaScript obfuscation challenge is to make the source code easier to read, adding line breaks and braces where needed. jsbeautifier
+
+Crypto
+------
+
+* [rsa_solver.py](https://gist.github.com/superkojiman/d547aa6e0eb10918243e) - solve simple RSA challenges in CTFs
