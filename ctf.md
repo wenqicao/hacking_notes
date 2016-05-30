@@ -5,6 +5,7 @@
 Tools
 -----
 
+* [ctf-tools](https://github.com/zardus/ctf-tools) - many tools in one place
 * [pwntools by Gallopsled](https://github.com/Gallopsled/pwntools) - CTF framework
 * [Useful websites for puzzle solving](http://www.winterdragon.org/index.php?page=puzzle-sites)
 
