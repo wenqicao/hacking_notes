@@ -59,6 +59,12 @@ shell.php.xxxjpg (still ends in .jpg, but not recognised extension so will defau
 ; whoami; .png
 ```
 
+PHP-Specific
+------------
+
+* [IonCube V8.2 + PHP Auto - Fixer Decoder](http://phpdecode.blogspot.co.at/)
+
+
 XXE (XML External Entity Injection)
 -----------------------------------
 
