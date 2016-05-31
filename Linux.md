@@ -81,6 +81,7 @@ Passwords in config files, backups:
 find /etc/ -name "*.conf" -exec grep -i pass {} \;
 find / -type d -name "*backup*"
 find / -name "*backup*" | grep "\.tar\|\.gz\|\.zip\|\.bz2\|\.bak"
+```
 
 Shell
 -----
