@@ -13,3 +13,9 @@ Privilege Escalation
 * [Autoruns](http://technet.microsoft.com/en-us/sysinternals/bb963902.aspx ) - tool for managing autorun apps
 * [AccessChk](https://technet.microsoft.com/en-us/sysinternals/bb664922.aspx)
 * [PowerUp](https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc) - clearinghouse of common Windows privesc vectors that rely on misconfigurations
+
+Null Session
+------------
+
+Open ports? UDP 137 & 138, TCP 139  
+`net use \\host\IPC$ "" "/user:"`
