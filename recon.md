@@ -8,3 +8,4 @@ Tools
 * [Maltego](http://www.paterva.com/web6/products/maltego.php)
 * [Shodan](https://www.shodan.io/)
 * [p0f2](http://lcamtuf.coredump.cx/p0f3/#/) - passive OS fingerprinting utility
+* [NetCraft DNS Search](http://searchdns.netcraft.com/)
