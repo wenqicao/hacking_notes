@@ -74,3 +74,8 @@ Misc
 
 * [JSFuck](http://www.jsfuck.com/) - Javascript with six characters
 * [XSS Payloads](http://www.xss-payloads.com/) - a variety of XSS payloads
+
+Resources
+---------
+
+* [Cross-Site Scripting (XSS)](http://phpsecurity.readthedocs.io/en/latest/Cross-Site-Scripting-(XSS).html)

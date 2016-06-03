@@ -39,3 +39,9 @@ Metadata
 * [FOCA](https://www.elevenpaths.com/labstools/foca/index.html) - tool for finding metadata and hidden information in the documents
 * [Metagoofil](http://www.edge-security.com/metagoofil.php) - information gathering tool designed for extracting metadata of public documents belonging to a target company
 * [ExifTool](http://www.sno.phy.queensu.ca/~phil/exiftool/) - tool for reading, writing and editing meta information in a wide variety of files
+
+
+Data Recovery
+-------------
+
+* [Recuva](https://www.piriform.com/recuva)
