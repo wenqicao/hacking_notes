@@ -32,9 +32,18 @@ smb || dns || icmp
 NMAP
 ----
 
-`-iR`: use random IP addresses  
-`-iL`: scan form file
+`-iR` use random IP addresses  
+`-iL` scan form file  
+`-sT` connect scan (3-way handshake)  
+`-sS` stealth scan (SYN)  
+`-sA` ACK method  
+`-vv` increased verbosity
 
+* Output  
+`-oN` same as on screen  
+`-oG` greppable format  
+`-oX` XML format  
+`-oA` all formats  
 
 Other
 -----
