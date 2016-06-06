@@ -7,6 +7,7 @@
 * netdiscover
 * [Yersinia](http://www.yersinia.net/) - network tool designed to take advantage of weaknesses in different network protocols
 * [iodine](https://github.com/yarrick/iodine) - tunnel IPv4 data through a DNS server
+* [dnscat2](https://github.com/iagox86/dnscat2) - encrypted C&C over DNS
 
 DNS Cache Snooping
 ------------------

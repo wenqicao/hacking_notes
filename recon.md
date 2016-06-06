@@ -9,3 +9,5 @@ Tools
 * [Shodan](https://www.shodan.io/)
 * [p0f2](http://lcamtuf.coredump.cx/p0f3/#/) - passive OS fingerprinting utility
 * [NetCraft DNS Search](http://searchdns.netcraft.com/)
+* [PunkSPIDER](https://www.punkspider.org/) - a global web application vulnerability search engine
+* [Internet Census 2012 Search](http://exfiltrated.com/querystart.php)
