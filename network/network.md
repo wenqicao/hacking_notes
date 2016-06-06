@@ -29,6 +29,13 @@ ip.src==192.168.0.0/16
 smb || dns || icmp
 ```
 
+NMAP
+----
+
+`-iR`: use random IP addresses  
+`-iL`: scan form file
+
+
 Other
 -----
 

@@ -164,7 +164,9 @@ SQLMAP
 -C user, password --dump  
 
 * POST requests:  
-`sqlmap -r post_request.txt -p <parameter>`
+`sqlmap -r post_request.txt -p <parameter>`  
+* TOR: `--tor --tor-type=SOCKS5`  
+* Fake user agent: `--user-agent="Googlebot (compatible; Googlebot/2.1; +http://www.google.com/bot.html)`
 
 Other Tools
 -----------
