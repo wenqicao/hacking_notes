@@ -37,13 +37,20 @@ NMAP
 `-sT` connect scan (3-way handshake)  
 `-sS` stealth scan (SYN)  
 `-sA` ACK method  
-`-vv` increased verbosity
+`-vv` increased verbosity  
+Spoof MAC: `--spoof-mac Cisco`  
+Bad checksum: `--badsum`  
+Source port spoof: `--source-port 53`  
 
-* Output  
+* Output:  
 `-oN` same as on screen  
 `-oG` greppable format  
 `-oX` XML format  
 `-oA` all formats  
+
+* While scanning:  
+`p` packet tracing  
+`v` verbosity  
 
 Other
 -----
