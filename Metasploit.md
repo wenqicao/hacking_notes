@@ -1,5 +1,7 @@
 # METASPLOIT
 
+* [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/) - the ultimate guide to the Metasploit Framework
+
 Starting
 --------
 ```
@@ -23,4 +25,5 @@ execute
 migrate
 ```
 
-Post-exploitation module: `run winenum` script.
+Post-exploitation module: `run winenum` script.  
+Windows hashes: `run post/windows/gather/smart_hashdump`

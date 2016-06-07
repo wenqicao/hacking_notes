@@ -40,32 +40,6 @@ New PC Security Checklist
 * If Chrome, disable other things (omnibox leak etc.)
 * Disable NetBIOS over TCP/IP (network settings)
 
-TCP/IP
-======
-
-OSI Model
----------
-
-1. Physical (cables, hubs); PDU: bit
-2. Data Link (frames); PDU: frame
-3. Network (packets); PDU: packet
-4. Transport (TCP); PDU: segment (TCP), datagram (UDP)
-5. Session (logical ports); PDU (5-7 layers): data (clear text, encrypted, compressed)
-6. Presentation (ASCII)
-7. Application (SMTP)
-
-TCP Flags
----------
-
-* CWR – Congestion Window Reduced (CWR) flag is set by the sending host to indicate that it received a TCP segment with the ECE flag set (added to header by RFC 3168).
-* ECE (ECN-Echo) – indicate that the TCP peer is ECN capable during 3-way handshake (added to header by RFC 3168).
-* URG – indicates that the URGent pointer field is significant
-* ACK – indicates that the ACKnowledgment field is significant (Sometimes abbreviated by tcpdump as ".")
-* PSH – Push function
-* RST – Reset the connection (Seen on rejected connections)
-* SYN – Synchronize sequence numbers (Seen on new connections)
-* FIN – No more data from sender (Seen after a connection is closed)
-
 Bug Bounties
 ------------
 
