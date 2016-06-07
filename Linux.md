@@ -55,7 +55,7 @@ lsof -i 4 -a -p 9255
 ```
 
 Privilege Escalation
---------------------
+====================
 
 * [Basic Linux Privilege Escalation by g0tmi1k](https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/)
 * [Linux Exploit Suggester](https://github.com/PenturaLabs/Linux_Exploit_Suggester)
@@ -84,7 +84,7 @@ find / -name "*backup*" | grep "\.tar\|\.gz\|\.zip\|\.bz2\|\.bak"
 ```
 
 Shell
------
+=====
 
 `>` - redirects standard output of a command to a file, overwriting previous content  
 `>>` - redirects standard output of a command to a file, appending new content to old content  
@@ -98,4 +98,5 @@ Shell
 `history` - view command history  
 `export PS1=">> "` - change default prompt from $ to >>  
 `env` - return environment variables  
-`w` - show logged in users
+`w` - show logged in users  
+`rdesktop -g 90% 0.0.0.0` - start rdesktop with large screen
