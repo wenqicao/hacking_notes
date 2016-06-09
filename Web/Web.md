@@ -110,4 +110,4 @@ Browser-Related
 ---------------
 
 * [Chrome "No Web Security"](https://bugs.chromium.org/p/chromium/issues/detail?id=575690) - Chrome can be started with less web security mode using flag "--disable-web-security"  
-* Pentesting plugins: [Firebug](http://getfirebug.com/), [Cookies Manager+](https://addons.mozilla.org/en-US/firefox/addon/cookies-manager-plus/), [FoxyProxy](https://getfoxyproxy.org/), [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data/), [FileStorage Plus!](https://addons.mozilla.org/de/firefox/addon/firestorage-plus/)  
+* Pentesting plugins: [Firebug](http://getfirebug.com/), [Cookies Manager+](https://addons.mozilla.org/en-US/firefox/addon/cookies-manager-plus/), [FoxyProxy](https://getfoxyproxy.org/), [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data/), [FileStorage Plus!](https://addons.mozilla.org/de/firefox/addon/firestorage-plus/), [NoScript Security Suite](https://addons.mozilla.org/en-US/firefox/addon/noscript/)  

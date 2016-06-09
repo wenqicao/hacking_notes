@@ -48,11 +48,11 @@ Bug Bounties
 Setting up TOR
 --------------
 
-
-
-
-Still to-do:
-------------
-
-p0wn pr0xy sqlmap  
-Hash length extension attack (http://sakurity.com/lengthextension)
+Country = Spain:  
+```
+apt-get install tor
+echo ExitNodes {es} >> /etc/tor/torrc
+service tor start
+proxychains firefox
+```
+And set Firefox to use `127.0.0.1:9050` proxy.

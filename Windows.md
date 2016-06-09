@@ -1,7 +1,7 @@
 # WINDOWS
 
 * [PowerSploit](https://github.com/PowerShellMafia/PowerSploit) - collection of powershell modules for pentesting
-* [Nishang](https://github.com/samratashok/nishang) - Powershell framework and collection of scripts and payloads for pentesting 
+* [Nishang](https://github.com/samratashok/nishang) - Powershell framework and collection of scripts and payloads for pentesting
 * [USBDumper](http://www.secuobs.com/USBDumper.rar) - silently copies contents of every connected USB device to the system
 * [mimikatz](https://github.com/gentilkiwi/mimikatz) - extract plaintext passwords, hashes, PIN codes, kerberos tickets from memory; pass-the-hash
 * [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) - a swiss army knife for pentesting Windows/Active Directory environments
@@ -26,3 +26,8 @@ Null Session
 
 Open ports? UDP 137 & 138, TCP 139  
 `net use \\host\IPC$ "" "/user:"`
+
+Other
+-----
+
+Turn off firewall: `NetSh Advfirewall set allprofiles state off`  

@@ -53,6 +53,11 @@ Display all open IPv4 network files in use by the processes whose PID is 9255:
 ```
 lsof -i 4 -a -p 9255
 ```
+Release / renew DHCP IP address:
+```
+dhclient -r eth0
+dhclient -v eth0
+```
 
 Privilege Escalation
 ====================
