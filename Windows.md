@@ -5,6 +5,7 @@
 * [USBDumper](http://www.secuobs.com/USBDumper.rar) - silently copies contents of every connected USB device to the system
 * [mimikatz](https://github.com/gentilkiwi/mimikatz) - extract plaintext passwords, hashes, PIN codes, kerberos tickets from memory; pass-the-hash
 * [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) - a swiss army knife for pentesting Windows/Active Directory environments
+* [PowerShellEmpire](https://github.com/powershellempire/empire) - post-exploitation agent
 
 Privilege Escalation
 --------------------
