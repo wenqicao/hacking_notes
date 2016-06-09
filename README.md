@@ -8,27 +8,29 @@
        ▀     
 ```               
 
-Collection of various hacking notes, sorted by topics; a cheatsheet if you will.  
+Collection of various penetration testing notes, sorted by topics; a cheatsheet if you will.  
 Always a very rough draft and constantly being updated.  
 **Disclaimer:** information provided in these notes is mostly useful for security and penetration testing and should not be used for any illegal activities.
 
 Topics
 ------
 
+CODING: notes on different languages, e.g. how to define functions, arrays  
+NETWORK: arp spoofing, etc.  
 WEB: sqli, xss, etc.  
 CRYPTO: ciphers, etc.  
-FORENSICS: stegano, etc.  
-LINUX: bash, user groups, etc.  
-PASSWORDS: cracking, bruteforcing, etc.  
-REVERSING: binary exploitation, etc.  
-MOBILE: testing apps, etc.  
-WINDOWS: anything Windows-related  
-NETWORK: arp spoofing, etc.  
 CTF: anything capture the flag related  
-CODING: notes on different languages, e.g. how to define functions, arrays
-NETWORK: wi-fi, DNS, etc.  
+FORENSICS: stegano, etc.  
+LABS: anything related to setting up home labs  
+LINUX: bash, user groups, etc.  
+METASPLOIT: msfconsole commands, etc.  
 MISC: anything else that doesn't fit into above categories  
-
+MOBILE: testing apps, etc.   
+PASSWORDS: cracking, bruteforcing, etc.  
+RECON: anything reconnaisance related  
+REVERSING: binary exploitation, etc.  
+WINDOWS: anything Windows-related  
+ 
 
 Tree Of Contents
 ----------------
@@ -41,5 +43,5 @@ Tree Of Contents
      |                                                  |                                  |
    --------------------------                          ---                             ---------
   /  |    |         |        \                        /   \                           /    |    \
-IIS SQLi XSS  Path Traversal Web                 Network  Wifi                      PHP  Python  Java
+IIS SQLi XSS  Path Traversal Web                 Network  WiFi                      PHP  Python  Java
 ```
