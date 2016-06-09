@@ -94,3 +94,9 @@ arpspoof -t 10.0.0.1 10.0.0.2
 arpspoof -t 10.0.0.2 10.0.0.1
 ```  
 * View routing tables: `netstat -rn`  
+* Turn off local DNS servers:
+```
+netsh inerface IPv4 set dnsserver "Local Area connecton" static 0.0.0.0 both
+ipconfig /dlushdns
+www.dnsleaktest.com
+```

@@ -10,6 +10,15 @@ msfdb init
 msfconsole
 ```
 
+Useful Metasploit Console Commands
+----------------------------------
+* [MSFconsole Core Commands](https://www.offensive-security.com/metasploit-unleashed/msfconsole-commands/)  
+```
+jobs
+sessions -i 1
+set session 1
+```
+
 Useful Meterpreter Commands
 ---------------------------
 ```
@@ -23,6 +32,7 @@ ps
 kill
 execute
 migrate
+
 ```
 
 Post-exploitation module: `run winenum` script.  

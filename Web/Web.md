@@ -70,6 +70,11 @@ XXE (XML External Entity Injection)
 
 * [Preventing XXE in PHP](https://websec.io/2012/08/27/Preventing-XEE-in-PHP.html)
 
+SSL
+---
+
+* [SSL Checklist for Pentesters - the Manual Cheatsheet](http://www.exploresecurity.com/wp-content/uploads/custom/SSL_manual_cheatsheet.html)
+
 
 IP Spoofing
 -----------
