@@ -19,8 +19,9 @@ Post-Exploitation
 -----------------
 
 * [Post-Exploitation with "Incognito"](http://hardsec.net/post-exploitation-with-incognito/?lang=en)
-* [PowerShellEmpire](https://github.com/powershellempire/empire) - post-exploitation agent
+* [PowerShellEmpire](https://github.com/powershellempire/empire) - post-exploitation agent  
 
+If have DC access, use CrackMapExe module to extract ntds.dit (contains AD data) and other modules.
 
 Null Session
 ------------
