@@ -30,7 +30,7 @@ PASSWORDS: cracking, bruteforcing, etc.
 RECON: anything reconnaisance related  
 REVERSING: binary exploitation, etc.  
 WINDOWS: anything Windows-related  
- 
+
 
 Tree Of Contents
 ----------------
@@ -41,7 +41,7 @@ Tree Of Contents
       /     |        |        |      |        |         |         |        |        |      |      \      |       \
     Web  Crypto  Forensics  Misc  Mobile  Passwords  Network  Reversing  Windows  Linux  Coding  Labs  Recon  Metasploit
      |                                                  |                                  |
-   --------------------------                          ---                             ---------
-  /  |    |         |        \                        /   \                           /    |    \
+   --------------------------                          ---                             ----------
+  /  |    |         |        \                        /   \                           /    |     \
 IIS SQLi XSS  Path Traversal Web                 Network  WiFi                      PHP  Python  Java
 ```

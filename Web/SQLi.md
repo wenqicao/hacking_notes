@@ -100,6 +100,8 @@ etc.
 Blind SQLi
 ----------
 
+* [BBQSQL](https://github.com/Neohapsis/bbqsql) - blind SQLi exploitation tool  
+
 When you put in a tick, you are redirected to a homepage? Suspicious.
 
 ```
@@ -173,7 +175,6 @@ Other Tools
 
 * Havij
 * sqlninja
-* BBQSQL
 * Metasploit SQLi Module
 
 
