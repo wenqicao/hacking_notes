@@ -1,6 +1,7 @@
 # METASPLOIT
 
 * [Metasploit Unleashed](https://www.offensive-security.com/metasploit-unleashed/) - the ultimate guide to the Metasploit Framework
+* [Veil-Evasion](https://github.com/Veil-Framework/Veil-Evasion/) - generate metasploit payloads that bypass anti-virus solutions
 
 Starting
 --------

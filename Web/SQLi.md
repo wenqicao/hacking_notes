@@ -183,6 +183,7 @@ Prevention Techniques
 
 * Input sanitization
 * Prepared statements
+* [Bobby Tables](http://bobby-tables.com/) - a guide to preventing SQLi
 
 
 Resources

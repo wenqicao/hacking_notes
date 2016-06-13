@@ -9,6 +9,7 @@
 * [iodine](https://github.com/yarrick/iodine) - tunnel IPv4 data through a DNS server
 * [dnscat2](https://github.com/iagox86/dnscat2) - encrypted C&C over DNS
 * [MITMf](https://github.com/byt3bl33d3r/MITMf) - framework for MITM attacks
+* [socat](http://www.dest-unreach.org/socat/) - like netcat, extended design
 
 Discovery
 ---------

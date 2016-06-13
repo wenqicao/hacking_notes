@@ -22,7 +22,7 @@ XSRF (Cross-site Request Forgery)
 Command Injection
 -----------------
 
-* Try to use pipe, ampersands, etc. Example: `1 | uname -a & users & id`
+* Try to use pipe, ampersands, double ampersands, colon: `1 | uname -a & users & id`
 
 
 File Inclusion
