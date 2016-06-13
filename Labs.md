@@ -1,7 +1,6 @@
 # LABS
 
-* [Windows Virtual Machines](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/windows/)
-* [Windows Virtual Machines (7, 8, 10) for testing IE](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/windows/)
+* [Windows Virtual Machines (7 to 10)](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/windows/)
 
 Virtualizing OSX
 ----------------
