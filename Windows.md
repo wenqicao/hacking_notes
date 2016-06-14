@@ -32,6 +32,8 @@ If have DC access, use CrackMapExe module to extract ntds.dit (contains AD data)
 `process::suspend [pid]` - suspend a process  
 `process::resume [pid]` - resume execution of a progress  
 
+Windows commands:  
+
 `net view /DOMAIN` - find out which domain I trust  
 `net view /DOMAIN:[domain]  
 net group "domain computers" /DOMAIN` - see which hosts are in a domain  
