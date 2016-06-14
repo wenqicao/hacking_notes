@@ -32,15 +32,15 @@ If have DC access, use CrackMapExe module to extract ntds.dit (contains AD data)
 `process::suspend [pid]` - suspend a process  
 `process::resume [pid]` - resume execution of a progress  
 
-`net view /DOMAIN` - find out which domain I trust
+`net view /DOMAIN` - find out which domain I trust  
 `net view /DOMAIN:[domain]  
-net group "domain computers" /DOMAIN` - see which hosts are in a domain
-`nltest /dclist:[domain]` - see which hosts are DCs for a domain
+net group "domain computers" /DOMAIN` - see which hosts are in a domain  
+`nltest /dclist:[domain]` - see which hosts are DCs for a domain  
 `nslookup [name]  
-ping -n 1 -4 [name]` - map a NetBIOS name to an IPv4 addresses
-`nltest /domain_trusts
-nltest /server:[address] /domain_trusts` - map domain trusts
-`net view \\[name]` - list shares on a host
+ping -n 1 -4 [name]` - map a NetBIOS name to an IPv4 addresses  
+`nltest /domain_trusts  
+nltest /server:[address] /domain_trusts` - map domain trusts  
+`net view \\[name]` - list shares on a host  
 
 Null Session
 ------------
