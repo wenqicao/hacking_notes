@@ -105,8 +105,8 @@ Browser-Related
 * Pentesting plugins: [Firebug](http://getfirebug.com/), [Cookies Manager+](https://addons.mozilla.org/en-US/firefox/addon/cookies-manager-plus/), [FoxyProxy](https://getfoxyproxy.org/), [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data/), [FileStorage Plus!](https://addons.mozilla.org/de/firefox/addon/firestorage-plus/), [NoScript Security Suite](https://addons.mozilla.org/en-US/firefox/addon/noscript/), [HackBar](https://addons.mozilla.org/en-US/firefox/addon/hackbar/)  
 
 
-CMS-Specifgic
-=============
+CMS-Specific
+============
 
 Drupal
 ------
