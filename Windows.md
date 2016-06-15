@@ -4,6 +4,7 @@
 * [Nishang](https://github.com/samratashok/nishang) - Powershell framework and collection of scripts and payloads for pentesting
 * [USBDumper](http://www.secuobs.com/USBDumper.rar) - silently copies contents of every connected USB device to the system
 * [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec) - a swiss army knife for pentesting Windows/Active Directory environments
+* [Kon-Boot](http://www.piotrbania.com/all/kon-boot/) - silently bypass the authentication process of Windows based OS
 
 Privilege Escalation
 --------------------
