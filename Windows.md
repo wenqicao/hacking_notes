@@ -43,6 +43,9 @@ ping -n 1 -4 [name]` - map a NetBIOS name to an IPv4 addresses
 `nltest /domain_trusts  
 nltest /server:[address] /domain_trusts` - map domain trusts  
 `net view \\[name]` - list shares on a host  
+`net group "enterprise admins" /DOMAIN` - show ent admins  
+`net group "domain admins" /DOMAIN` - show domain admins  
+`net localgroup "administrators" /DOMAIN` - show local admins  
 
 Null Session
 ------------

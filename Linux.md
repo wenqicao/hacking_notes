@@ -105,4 +105,5 @@ Shell
 `env` - return environment variables  
 `w` - show logged in users  
 `rdesktop -g 90% 0.0.0.0` - start rdesktop with large screen
-`dmesg` - kernel messages
+`dmesg` - kernel messages  
+` curl ftp://ftp.uk.debian.org/debian/pool/main/[a-z]/` - files matching within the range [a-z] will be downloaded

@@ -98,6 +98,16 @@ Simple scan:
 perl nikto.pl -host http://www.example.com
 ```
 
+Browser-Related
+---------------
+
+* [Chrome "No Web Security"](https://bugs.chromium.org/p/chromium/issues/detail?id=575690) - Chrome can be started with less web security mode using flag "--disable-web-security"  
+* Pentesting plugins: [Firebug](http://getfirebug.com/), [Cookies Manager+](https://addons.mozilla.org/en-US/firefox/addon/cookies-manager-plus/), [FoxyProxy](https://getfoxyproxy.org/), [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data/), [FileStorage Plus!](https://addons.mozilla.org/de/firefox/addon/firestorage-plus/), [NoScript Security Suite](https://addons.mozilla.org/en-US/firefox/addon/noscript/), [HackBar](https://addons.mozilla.org/en-US/firefox/addon/hackbar/)  
+
+
+CMS-Specific
+============
+
 Drupal
 ------
 
@@ -106,8 +116,9 @@ Drupal
 * [Drupal by Mad Irish](http://www.madirish.net/tag/drupal) - good resource on Drupal vulns
 * Find out which version: `domain.com/changelog.txt`
 
-Browser-Related
----------------
+Liferay
+-------
 
-* [Chrome "No Web Security"](https://bugs.chromium.org/p/chromium/issues/detail?id=575690) - Chrome can be started with less web security mode using flag "--disable-web-security"  
-* Pentesting plugins: [Firebug](http://getfirebug.com/), [Cookies Manager+](https://addons.mozilla.org/en-US/firefox/addon/cookies-manager-plus/), [FoxyProxy](https://getfoxyproxy.org/), [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data/), [FileStorage Plus!](https://addons.mozilla.org/de/firefox/addon/firestorage-plus/), [NoScript Security Suite](https://addons.mozilla.org/en-US/firefox/addon/noscript/)  
+* [LiferayScan](https://github.com/bcoles/LiferayScan) - simple remote scanner for Liferay Portal
+* [Hacking Liferay CMS](http://realpentesting.blogspot.co.at/2013/01/hacking-liferay-cms.html) - version 6.06
+* [Liferay Portal Security Research](http://www.procheckup.com/media/194945/liferay.pdf) - version 6.05
