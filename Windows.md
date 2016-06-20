@@ -10,6 +10,7 @@ Privilege Escalation
 --------------------
 
 * [Windows Privilege Escalation Fundamentals](http://www.fuzzysecurity.com/tutorials/16.html)
+* [Potato](https://github.com/foxglovesec/Potato) - privilege escalation on Windos 7, 8, 10, Server 2008, Server 2012
 * [AccessEnum](https://technet.microsoft.com/en-us/sysinternals/bb897332.aspx) - tool for analyzing files/dirs user rights
 * [Autoruns](http://technet.microsoft.com/en-us/sysinternals/bb963902.aspx ) - tool for managing autorun apps
 * [AccessChk](https://technet.microsoft.com/en-us/sysinternals/bb664922.aspx)
