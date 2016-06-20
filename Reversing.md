@@ -14,3 +14,9 @@ Fuzzing
 -------
 
 * [American Fuzzy Lop](http://lcamtuf.coredump.cx/afl/) - fuzzer
+
+
+Java
+----
+
+* [JD](http://jd.benow.ca/) - java decompiler
