@@ -1,6 +1,7 @@
 # MISC
 
-General wordlists: [SecLists](https://github.com/danielmiessler/SecLists)
+* General wordlists: [SecLists](https://github.com/danielmiessler/SecLists)  
+* [FuzzDB](https://github.com/fuzzdb-project/fuzzdb)  
 
 Git
 ---
