@@ -9,6 +9,7 @@ Tools
 * [Hiew](http://www.hiew.ru/) - russian disassembler
 * [DarunGrim](http://www.darungrim.org/) - patch analysis and binary diffing tool
 * [patchdiff2](https://code.google.com/archive/p/patchdiff2/) - plugin for IDA that can analyze two IDB files and find the differences between both
+* [Shellsploit](https://github.com/b3mb4m/shellsploit-framework)  
 
 Fuzzing
 -------
