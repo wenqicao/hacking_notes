@@ -33,8 +33,8 @@ cd /opt/nessus/sbin
 ./nessuscli chpasswd [username]
 ```
 
-New PC Security Checklist
--------------------------
+New PC Security Checklist (Windows Client Security)
+---------------------------------------------------
 
 * Disable Flash in browser (`chrome://plugins`)
 * Disable Java in browser (Start -> Configure Java -> Security -> Uncheck "Enable Java content in the browser")
