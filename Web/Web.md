@@ -124,3 +124,8 @@ Liferay
 * [LiferayScan](https://github.com/bcoles/LiferayScan) - simple remote scanner for Liferay Portal
 * [Hacking Liferay CMS](http://realpentesting.blogspot.co.at/2013/01/hacking-liferay-cms.html) - version 6.06
 * [Liferay Portal Security Research](http://www.procheckup.com/media/194945/liferay.pdf) - version 6.05
+* [Liferay Portlet Shell](https://www.insinuator.net/tag/liferay/)
+* [Liferay 6.1 can be compromised in its default configuration](http://seclists.org/bugtraq/2012/Apr/151)
+* [Liferay Portal 7.0.x <= 7.0.2 - Pre-Auth RCE Exploit](http://0day.today/exploit/23043)
+* [Hacking LifeRay CMS](http://realpentesting.blogspot.co.at/2013/01/hacking-liferay-cms.html)
+* [Hacking Liferay](http://blog.etapix.com/2013/02/hacking-liferay-securing-against-online.html)
