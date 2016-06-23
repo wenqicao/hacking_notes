@@ -104,11 +104,10 @@ Shell / Bash
 `export PS1=">> "` - change default prompt from $ to >>  
 `env` - return environment variables  
 `w` - show logged in users  
-`sort` -
-`wc` -
-`head` -
-`uniq` -
-`rdesktop -g 90% 0.0.0.0` - start rdesktop with large screen
+`sort` - prints the lines of input in sorted order  
+`wc -l [filename]` - prints the line count  
+`uniq` - reports or filters out repeated lines in a file  
+`rdesktop -g 90% 0.0.0.0` - start rdesktop with large screen  
 `dmesg` - kernel messages  
 ` curl ftp://ftp.uk.debian.org/debian/pool/main/[a-z]/` - files matching within the range [a-z] will be downloaded  
 
