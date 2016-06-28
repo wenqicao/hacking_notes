@@ -38,6 +38,7 @@ Wordlists
 * [CIRT](https://cirt.net/passwords) - default password DB
 * [Weakpass](http://weakpass.com/lists) - various password lists
 * [SkullSecurity](https://wiki.skullsecurity.org/Passwords) - various password lists
+* [Hashes.org](https://hashes.org/public.php) - shared community password recovery
 
 
 Other Resources
