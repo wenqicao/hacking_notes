@@ -165,6 +165,7 @@ SQLMAP
 -T users: list columns of users table  
 -C user, password --dump  
 --os-shell  
+`*` - shows where to inject payload. Useful for simple filtering, e.g. backslashes before single quotes
 
 * POST requests:  
 `sqlmap -r post_request.txt -p [parameter]`  
