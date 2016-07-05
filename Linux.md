@@ -110,6 +110,7 @@ Shell / Bash
 `rdesktop -g 90% 0.0.0.0` - start rdesktop with large screen  
 `dmesg` - kernel messages  
 ` curl ftp://ftp.uk.debian.org/debian/pool/main/[a-z]/` - files matching within the range [a-z] will be downloaded  
+
 Screen:  
 ```
 New session: screen -S session_name
