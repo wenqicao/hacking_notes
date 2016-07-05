@@ -25,7 +25,7 @@ Useful Meterpreter Commands
 ```
 sysinfo
 exit/quit
-download/upload
+download/upload (use C:\\)
 edit
 getpid
 geuid
@@ -33,7 +33,8 @@ ps
 kill
 execute
 migrate
-
+search -f network-secret.txt
+shell
 ```
 
 Post-exploitation module: `run winenum` script.  
