@@ -91,6 +91,10 @@ SSL
 
 * [SSL Checklist for Pentesters - the Manual Cheatsheet](http://www.exploresecurity.com/wp-content/uploads/custom/SSL_manual_cheatsheet.html)
 
+SSI (Server-Side Include)
+-------------------------
+
+`<!--#echo var="DATE_LOCAL" -->`
 
 IP Spoofing
 -----------
@@ -119,6 +123,17 @@ Browser-Related
 
 * [Chrome "No Web Security"](https://bugs.chromium.org/p/chromium/issues/detail?id=575690) - Chrome can be started with less web security mode using flag "--disable-web-security"  
 * Pentesting plugins: [Firebug](http://getfirebug.com/), [Cookies Manager+](https://addons.mozilla.org/en-US/firefox/addon/cookies-manager-plus/), [FoxyProxy](https://getfoxyproxy.org/), [Tamper Data](https://addons.mozilla.org/en-US/firefox/addon/tamper-data/), [FileStorage Plus!](https://addons.mozilla.org/de/firefox/addon/firestorage-plus/), [NoScript Security Suite](https://addons.mozilla.org/en-US/firefox/addon/noscript/), [HackBar](https://addons.mozilla.org/en-US/firefox/addon/hackbar/)  
+
+
+Information Leakage
+-------------------
+```
+GET / HTTP/1.0
+CONNECTION:CLOSE
+
+
+```
+Send this request using Burp repeater. Might leak internal IPs, hostnames etc. Note the two newlines after CONNECTION:CLOSE.
 
 
 CMS-Specific

