@@ -98,7 +98,7 @@ SSI (Server-Side Include)
 
 IP Spoofing
 -----------
-
+```
 Accept: */*
 x-forwarded-for: 127.0.0.1  
 x-remote-IP: 127.0.0.1  
@@ -106,7 +106,7 @@ x-originating-IP: 127.0.01
 x-remote-addr: 127.0.0.1  
 x-remote-ip: 127.0.0.1  
 x-forwarded-for 127.0.0.1  
-
+```
 Sometimes referer needs to be deleted in the request.
 
 Nikto
@@ -133,7 +133,7 @@ CONNECTION:CLOSE
 
 
 ```
-Send this request using Burp repeater. Might leak internal IPs, hostnames etc. Note the two newlines after CONNECTION:CLOSE.
+Send this request using Burp Repeater. Might leak internal IPs, hostnames etc. Note the two newlines after CONNECTION:CLOSE.
 
 
 CMS-Specific
