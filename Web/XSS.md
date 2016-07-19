@@ -1,7 +1,7 @@
 # XSS (CROSS SITE SCRIPTING)
 
-Payloads
---------
+Quick Payloads
+--------------
 ```
 <script>alert("XSS")</script>
 <script>alert('XSS')</script>
