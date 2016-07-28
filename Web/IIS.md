@@ -2,8 +2,9 @@
 
 General info:
 
-https://www.alertlogic.com/blog/internet-information-server-%28iis%29-exploitation/  
-https://www.exploit-db.com/exploits/19033/
+* https://www.alertlogic.com/blog/internet-information-server-%28iis%29-exploitation/  
+* https://www.exploit-db.com/exploits/19033/  
+* https://www.alertlogic.com/blog/internet-information-server-(iis)-exploitation/
 
 Shortname Enumeration
 =====================
@@ -29,3 +30,10 @@ http://127.0.0.1/backend/admin:$i30:$INDEX_ALLOCATION/admin.asp
 ```
 
 Tip: don't forget to append the file name at the end.
+
+Padding Oracle
+==============
+
+Look for webresource.axd.
+
+* [Padding Oracle Attack Explained](http://www.securitylearn.net/tag/padbuster/)
