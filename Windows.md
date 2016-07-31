@@ -33,6 +33,9 @@ Privilege escalation exploits:
 * MS10-021 (KB979683)
 * MS11-080 (KB2592799)
 
+Other tips
+
+* Search for automated deployment tools config files - they may contain passwords: sysprep.inf, sysprep.xml, unattended.xml, groups.xml (Microsoft public AES key), etc.
 
 Post-Exploitation
 -----------------
