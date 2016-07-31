@@ -14,8 +14,25 @@ Privilege Escalation
 * [AccessEnum](https://technet.microsoft.com/en-us/sysinternals/bb897332.aspx) - tool for analyzing files/dirs user rights
 * [Autoruns](http://technet.microsoft.com/en-us/sysinternals/bb963902.aspx ) - tool for managing autorun apps
 * [AccessChk](https://technet.microsoft.com/en-us/sysinternals/bb664922.aspx)
-* [PowerUp](https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc) - clearinghouse of common Windows privesc vectors that rely on misconfigurations
-* `whoami /groups` shows info about which groups you are in, which integrity level your process is run at
+* [PowerUp](https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc) - clearinghouse of common Windows privesc vectors that rely on misconfigurations  
+
+A few useful Windows commands:  
+
+`whoami /groups` shows info about which groups you are in, which integrity level your process is run at  
+`systeminfo`  
+`net user [username]`  
+`schtasks /query /fo LIST /v` - list all scheduled tasks  
+`tasklist /SVC` - link running processes to started services  
+`wmic qfe get Caption,Description,HotFixID,InstalledOn` - view installed patches
+
+Privilege escalation exploits:
+
+* KiTrap0D (KB979682)
+* MS11-011 (KB2393802)
+* MS10-059 (KB982799)
+* MS10-021 (KB979683)
+* MS11-080 (KB2592799)
+
 
 Post-Exploitation
 -----------------
@@ -62,3 +79,4 @@ Other
 -----
 
 Turn off firewall: `NetSh Advfirewall set allprofiles state off`  
+* [ntpassword](http://pogostick.net/~pnh/ntpasswd/) - utility to reset Windows passwords
