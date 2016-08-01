@@ -17,6 +17,12 @@ where md5.txt contains the hash in this format: Bob:1c0b76fce779f78f51be339c4944
 
 * [John the Ripper Hash Formats](http://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats)  
 
+Password mutating - adding a few numebers at the end, swapping upper/lowercase etc.
+```
+nano /etc/john/john.conf
+john --wordlist=megacorp-cewl.txt --rules --stdout > mutated.txt
+```
+
 Online MD5 cracker: [HashKiller](https://hashkiller.co.uk/md5-decrypter.aspx)
 
 Ophcrack is a Windows Password cracker based on Rainbow Tables.  

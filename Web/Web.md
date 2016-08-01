@@ -75,8 +75,22 @@ shell.php.xxxjpg (still ends in .jpg, but not recognised extension so will defau
 ; whoami; .png
 ```
 
-PHP-Specific
-------------
+Language-Specific
+=================
+
+ASP.NET
+-------
+
+Determine if stack traces are enabled: `host.com/default|.aspx`  
+Invalidate .NET Monitoring with a virtual directory identifier: `host.com/default~.aspx`  
+Detailed application level trace information (rarely enabled): `host.com/trace.axd`   
+Most important file: web.config (located inside the document root).  
+`__VIEWSTATE` variable contains application state (applicaton variables and control attributes). Viewstate contents can be decoded using a [ViewState Decoder](http://www.pluralsight.com/tools.aspx).  
+[Drop and Pop](http://ha.cked.net/dropandpop.zip) - .NET reverse shell dropper  
+
+
+PHP
+---
 
 * [IonCube V8.2 + PHP Auto - Fixer Decoder](http://phpdecode.blogspot.co.at/)
 

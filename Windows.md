@@ -7,7 +7,7 @@
 * [Kon-Boot](http://www.piotrbania.com/all/kon-boot/) - silently bypass the authentication process of Windows based OS
 
 Privilege Escalation
---------------------
+====================
 
 * [Windows Privilege Escalation Fundamentals](http://www.fuzzysecurity.com/tutorials/16.html)
 * [Potato](https://github.com/foxglovesec/Potato) - privilege escalation on Windos 7, 8, 10, Server 2008, Server 2012
@@ -33,12 +33,13 @@ Privilege escalation exploits:
 * MS10-021 (KB979683)
 * MS11-080 (KB2592799)
 
-Other tips
+Other tips:
 
 * Search for automated deployment tools config files - they may contain passwords: sysprep.inf, sysprep.xml, unattended.xml, groups.xml (Microsoft public AES key), etc.
 
+
 Post-Exploitation
------------------
+=================
 
 * [Post-Exploitation with "Incognito"](http://hardsec.net/post-exploitation-with-incognito/?lang=en)
 * [PowerShellEmpire](https://github.com/powershellempire/empire) - post-exploitation agent  
@@ -57,7 +58,16 @@ If have DC access, use CrackMapExe module to extract ntds.dit (contains AD data)
 `process::suspend [pid]` - suspend a process  
 `process::resume [pid]` - resume execution of a progress  
 
-Windows commands:  
+
+Extracting Hashes
+-----------------
+
+Tools: `fgdump.exe` or `pwdump`  
+WCE (windows credential editor) - might work for older versions: `wce -w`  
+
+
+Useful Windows Commands
+-----------------------
 
 `net view /DOMAIN` - find out which domain I trust  
 `net view /DOMAIN:[domain]  
@@ -78,8 +88,9 @@ Null Session
 Open ports? UDP 137 & 138, TCP 139  
 `net use \\host\IPC$ "" "/user:"`
 
+
 Other
------
+=====
 
 Turn off firewall: `NetSh Advfirewall set allprofiles state off`  
 * [ntpassword](http://pogostick.net/~pnh/ntpasswd/) - utility to reset Windows passwords

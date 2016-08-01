@@ -66,6 +66,7 @@ Privilege Escalation
 * [Linux Exploit Suggester](https://github.com/PenturaLabs/Linux_Exploit_Suggester)
 * [LinuxPrivChecker](http://www.securitysift.com/download/linuxprivchecker.py)
 * [unix-privesc-check](http://pentestmonkey.net/tools/audit/unix-privesc-check)
+* [Linux Priv Esc](http://www.slideshare.net/nullthreat/aide-2014-fund-linux-priv-esc) - has some nice tricks, example: if gcc is not available, build a VM with exact version and kernel, build there and then move to target  
 
 Shell history:
 ```
