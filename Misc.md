@@ -56,7 +56,7 @@ echo ExitNodes {es} >> /etc/tor/torrc
 service tor start
 proxychains firefox
 ```
-And set Firefox to use `127.0.0.1:9050` proxy.
+And set Firefox to use `127.0.0.1:9050` proxy.  
 
 
 PostgreSQL
