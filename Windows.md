@@ -32,6 +32,7 @@ Privilege escalation exploits:
 * MS10-059 (KB982799)
 * MS10-021 (KB979683)
 * MS11-080 (KB2592799)
+* MS15-003 (KB3021674, Windows 8.1)  
 
 Other tips:
 
@@ -43,6 +44,7 @@ Post-Exploitation
 
 * [Post-Exploitation with "Incognito"](http://hardsec.net/post-exploitation-with-incognito/?lang=en)
 * [PowerShellEmpire](https://github.com/powershellempire/empire) - post-exploitation agent  
+* [WCE](http://www.ampliasecurity.com/research/windows-credentials-editor/) - ool to list logon sessions and add, change, list and delete associated credentials (ex.: LM/NT hashes, plaintext passwords and Kerberos tickets)  
 
 If have DC access, use CrackMapExe module to extract ntds.dit (contains AD data) and other modules.  
 

@@ -9,8 +9,11 @@ File permissions: owner:group:world x=1 w=2 r=4
 
 Eliminating traces:
 
-`iptables –flush; history -c; find ./ -name “*.log” |xargs rm`
+`iptables –flush; history -c; find ./ -name “*.log” |xargs rm`  
 
+Download file from remote system using SSH/SCP: `scp user@remotehost:/tmp/file /root/Desktop/file`  
+Find mounted stuff: `findmnt` or `cat /proc/mounts`  
+Shutdown/start network interface: `ipconfig eth0 down[up]`  
 
 User Management
 ---------------

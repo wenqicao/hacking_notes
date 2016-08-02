@@ -57,3 +57,14 @@ service tor start
 proxychains firefox
 ```
 And set Firefox to use `127.0.0.1:9050` proxy.
+
+
+PostgreSQL
+----------
+
+Connecto to "database_name" database with 'postgres' user: `psql -U postgres -d database_name`  
+List all databases: `\list`  
+List all tables in the current database: `\dt`  
+Quit: `\q`  
+Switch databases: `\connect database_name`  
+Dump database to a file (run from bash): `pg_dump database_name -f /tmp/dump`  
