@@ -75,6 +75,12 @@ shell.php.xxxjpg (still ends in .jpg, but not recognised extension so will defau
 ; whoami; .png
 ```
 
+Open Redirect
+=============
+
+If parameter takes URL but redirects incorrectly, try adding questionmark in the payload, e..g:   
+`http://vulnerable/function?id=1&retURL=http://evil.com/?`
+
 Language-Specific
 =================
 
