@@ -1,4 +1,4 @@
-# IIS (MICROSOFT INTERNET INFORMATION SERVICES) EXPLOITING
+# IIS (MICROSOFT INTERNET INFORMATION SERVICES) / ASP.NET EXPLOITING
 
 General info:
 
@@ -34,6 +34,18 @@ Tip: don't forget to append the file name at the end.
 Padding Oracle
 ==============
 
-Look for webresource.axd.
+Look for `WebResource.axd` (access the static resources embedded in the application assemblies) or `ScriptResource.axd` (access to JavaScripts embedded in the assemblies or stored on the disk).
 
 * [Padding Oracle Attack Explained](http://www.securitylearn.net/tag/padbuster/)
+* [ASP.NET Padding Oracle File Download (MS10-070)](https://www.exploit-db.com/exploits/15265/)
+
+
+ASP.NET
+-------
+
+Determine if stack traces are enabled: `host.com/default|.aspx`  
+Invalidate .NET Monitoring with a virtual directory identifier: `host.com/default~.aspx`  
+Detailed application level trace information (rarely enabled): `host.com/trace.axd`   
+Most important file: web.config (located inside the document root).  
+`__VIEWSTATE` variable contains application state (applicaton variables and control attributes). Viewstate contents can be decoded using a [ViewState Decoder](http://www.pluralsight.com/tools.aspx).  
+[Drop and Pop](http://ha.cked.net/dropandpop.zip) - .NET reverse shell dropper  
