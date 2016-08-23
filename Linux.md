@@ -132,4 +132,6 @@ done
 
 # One-liner example:
 for url in $(cat list.txt); do host $url; done
-```
+```  
+
+Sort IP addresses: `sort -n -t . -k 1,1 -k 2,2 -k 3,3 -k 4,4 addresses.txt`
