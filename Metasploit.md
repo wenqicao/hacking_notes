@@ -23,7 +23,6 @@ set session 1
 Useful Meterpreter Commands
 ---------------------------
 ```
-wdigest (
 sysinfo
 exit/quit
 download/upload (use C:\\)
