@@ -42,6 +42,8 @@ Look for `WebResource.axd` (access the static resources embedded in the applicat
 ASP.NET
 -------
 
+* [OWASP Top 10 for NET Developers Part 2 by Troy Hunt](https://www.troyhunt.com/owasp-top-10-for-net-developers-part-2/)  
+
 Determine if stack traces are enabled: `host.com/default|.aspx`  
 Invalidate .NET Monitoring with a virtual directory identifier: `host.com/default~.aspx`  
 Detailed application level trace information (rarely enabled): `host.com/trace.axd`   
