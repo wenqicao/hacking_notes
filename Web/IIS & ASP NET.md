@@ -39,10 +39,11 @@ Look for `WebResource.axd` (access the static resources embedded in the applicat
 * [ASP.NET Padding Oracle File Download (MS10-070)](https://www.exploit-db.com/exploits/15265/)
 
 
-ASP.NET
--------
+ASP / .NET
+==========
 
 * [OWASP Top 10 for NET Developers Part 2 by Troy Hunt](https://www.troyhunt.com/owasp-top-10-for-net-developers-part-2/)  
+* [.NET Remoting](https://media.blackhat.com/bh-us-12/Briefings/Forshaw/BH_US_12_Forshaw_Are_You_My_Type_WP.pdf)
 
 Determine if stack traces are enabled: `host.com/default|.aspx`  
 Invalidate .NET Monitoring with a virtual directory identifier: `host.com/default~.aspx`  
@@ -50,3 +51,12 @@ Detailed application level trace information (rarely enabled): `host.com/trace.a
 Most important file: web.config (located inside the document root).  
 `__VIEWSTATE` variable contains application state (applicaton variables and control attributes). Viewstate contents can be decoded using a [ViewState Decoder](http://www.pluralsight.com/tools.aspx).  
 [Drop and Pop](http://ha.cked.net/dropandpop.zip) - .NET reverse shell dropper  
+
+Reversing
+---------
+
+* [.NET Reflector](http://www.red-gate.com/products/dotnet-development/reflector/)
+* [ILspy](http://ilspy.net/) - .NET assembly browser and decompiler
+* [de4dot](https://github.com/0xd4d/de4dot) - .NET deobfuscator and unpacker
+* [dnSpy](https://github.com/0xd4d/dnSpy) - tool to reverse engineer .NET assemblies
+* [Reflexil](http://reflexil.net/) - plugin for ILdasm and other decompilers to modify code in-place, allows to compile and inject C# code

@@ -16,6 +16,7 @@ Privilege Escalation
 * [Autoruns](http://technet.microsoft.com/en-us/sysinternals/bb963902.aspx ) - tool for managing autorun apps
 * [AccessChk](https://technet.microsoft.com/en-us/sysinternals/bb664922.aspx)
 * [PowerUp](https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc) - clearinghouse of common Windows privesc vectors that rely on misconfigurations  
+* [UACME](https://github.com/hfiref0x/UACME) - defeating Windows User Account Control by abusing built-in Windows AutoElevate backdoor  
 
 A few useful Windows commands:  
 
