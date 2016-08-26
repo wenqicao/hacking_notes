@@ -89,14 +89,20 @@ PHP
 
 * [IonCube V8.2 + PHP Auto - Fixer Decoder](http://phpdecode.blogspot.co.at/)
 
+PHP Deobfuscators
+
+* [UnPHP](https://www.unphp.net/) - the online PHP Decoder
+* [PHP Beautifier](http://phpbeautifier.com/) - beautify and format your PHP code
+* [PHP Sandbox](http://sandbox.onlinephpfunctions.com/)
+
 
 XXE (XML External Entity Injection)
------------------------------------
+===================================
 
 * [Preventing XXE in PHP](https://websec.io/2012/08/27/Preventing-XEE-in-PHP.html)
 
-SSL
----
+SSL / TLS
+=========
 
 * [SSL Checklist for Pentesters - the Manual Cheatsheet](http://www.exploresecurity.com/wp-content/uploads/custom/SSL_manual_cheatsheet.html)
 
