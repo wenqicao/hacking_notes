@@ -6,14 +6,15 @@ General info:
 * [Microsoft IIS 6.0 / 7.5 (+ PHP) - Multiple Vulnerabilities](https://www.exploit-db.com/exploits/19033/)  
 * https://www.alertlogic.com/blog/internet-information-server-(iis)-exploitation/
 
-Shortname Enumeration
-=====================
+Tilde Shortname Enumeration
+===========================
 
 Useful tool: https://github.com/irsdl/iis-shortname-scanner/  
 
 Other tools/info:
 
 * https://webbreacher.wordpress.com/2014/10/23/tilde-enumeration/
+* https://github.com/WebBreacher/tilde_enum
 * http://www.acunetix.com/blog/web-security-zone/windows-short-8-3-filenames-web-security-problem/
 * https://soroush.secproject.com/blog/2012/06/microsoft-iis-tilde-character-vulnerabilityfeature-short-filefolder-name-disclosure/
 * https://www.youtube.com/watch?v=XOd90yCXOP4
